@@ -16,22 +16,22 @@ const AnimatedRoutes = () => {
               {/* creating a Route for each page */}
 
               {/* home page */}
-              <Route path="/" element={ <Home/> } />
+              <Route path="/portfolio" element={ <Home/> } />
 
               {/* about page */}
-              <Route path="/about" element={ <About/> }/>
+              <Route path="/portfolio/about" element={ <About/> }/>
 
               {/* skills pages */}
-              <Route path="/skills" element={ <Skills/> } />
+              <Route path="/portfolio/skills" element={ <Skills/> } />
 
               {/* experience */}
-              <Route path="/experience" element={ <Experience/> } />
+              <Route path="/portfolio/experience" element={ <Experience/> } />
 
               {/* projects */}
-              <Route path="/projects" element={ <Projects/> } />
+              <Route path="/portfolio/projects" element={ <Projects/> } />
 
               {/* contact page */}
-              <Route path="/contact" element={ <Contact/> } />
+              <Route path="/portfolio/contact" element={ <Contact/> } />
 
             </Routes>
         </AnimatePresence>

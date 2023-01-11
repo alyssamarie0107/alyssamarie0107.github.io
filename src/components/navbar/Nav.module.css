@@ -1,0 +1,38 @@
+.customNavbar {
+    width: 100vw;
+    display: flex;
+    position: relative;
+    background-color: transparent;
+}
+
+.navbarCollapse {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.navBtn {
+    color: white;
+    margin-right: 8px;
+    padding: 5px 20px;
+    cursor: pointer;
+    border-radius: 20px;
+    border: 1.5px solid white;
+}
+
+.navBtn:hover {
+    color: white;
+    border: 1.5px solid transparent;
+    background: linear-gradient(black, black) padding-box,
+    linear-gradient(45deg, #11998E, #38EF7D) border-box;
+}
+
+/* if the browser window is 991px or smaller */
+@media only screen and (max-width: 991px) {
+    .navbarCollapse {justify-content: center;}
+
+    .navBtn {
+        padding: 3px 12px;
+        margin-bottom: 5px;
+        font-size: 13px;
+    }
+}

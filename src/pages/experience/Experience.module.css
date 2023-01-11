@@ -1,0 +1,44 @@
+.experienceContent,
+.pillsContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.experienceContent {position: relative;}
+
+.experienceContent ul {
+    margin-top: 12px;
+    padding: 5px 20px;
+    border-radius: 10px;
+    border: 1px solid white;
+    list-style: circle;
+    background-color: rgba(0, 0, 0, 0.6); 
+}
+.experienceContent ul > li > a {color: white;}
+
+.experienceContent ul > li > a:hover {text-decoration: underline;}
+
+.experienceHeading {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.experienceHeading > p,
+.date {
+    font-family: 'IBM Plex Mono', monospace;
+    word-spacing: -5px;
+}
+
+.date {font-size: 13px;}
+
+.panel {margin: 0;}
+
+.visitBtnsContainer {
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+}
+
+@media only screen and (max-width: 575px) {
+    .experienceContent ul {width: 95vw;}
+}

@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@300&display=swap');
+
+.Footer {
+    width: 100vw;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    position: relative;
+    padding: 0 30px;
+    color: white;
+}
+
+.Footer > span {
+    margin-bottom: 7px;
+    font-size: 13px;
+    font-family: 'IBM Plex Mono', monospace;
+    word-spacing: -3px;
+}
+
+/* if the browser window is 1100px or smaller */
+@media only screen and (max-width: 1100px) {
+    .Footer {
+        align-items: center;
+        font-size: 11px;
+    }
+
+    .Footer > span {
+        margin: 0;
+        font-size: 10px;
+    }
+}

@@ -1,0 +1,16 @@
+.VisitBtn {
+    color: white;
+    padding: 3px 15px;
+    margin-right: 10px;
+    border-radius: 20px;
+    cursor: pointer;
+    border: 1.5px solid transparent;
+    background: linear-gradient(black, black) padding-box,
+    linear-gradient(45deg, #11998E, #38EF7D) border-box;
+}
+
+.VisitBtn:hover {
+    color: white;
+    background: linear-gradient(black, black) padding-box,
+    linear-gradient(45deg, #38EF7D, white) border-box;
+}

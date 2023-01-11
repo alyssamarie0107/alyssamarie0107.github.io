@@ -1,0 +1,28 @@
+.skillContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.skillContainer > div {
+    width: 70px;
+    height: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    border-radius: 50%;
+    border: 1.5px solid transparent;
+    background: linear-gradient(black, black) padding-box,
+    linear-gradient(45deg, #11998E, #38EF7D) border-box;
+}
+
+.skillContainer > div:hover{
+    box-shadow: 0px 0px 11px rgba(255, 23, 23, 0.15);
+}
+
+.level {
+    font-size: 12px;
+    font-family: 'IBM Plex Mono', monospace;
+    word-spacing: -5px;
+}

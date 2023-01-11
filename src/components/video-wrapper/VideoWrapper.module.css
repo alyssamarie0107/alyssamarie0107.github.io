@@ -1,0 +1,19 @@
+.VideoWrapper {
+    width: 100vw;
+    min-height: 100vh;
+    position: relative; /* telling our absolute positioned video to be relative to this element */
+    overflow: hidden; /* will not allow the video to overflow the container */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+.VideoWrapper > video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* smulationg background-size: cover */
+    position: absolute;
+    top: 0;
+    left: 0;
+}

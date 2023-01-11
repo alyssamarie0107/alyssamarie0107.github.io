@@ -1,0 +1,39 @@
+.homeContent {position: relative;}
+
+.homeContent > h2 {
+  /* background: rgb(131,58,180);
+  background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%); */
+  /* background: rgb(15,226,235);
+  background: linear-gradient(90deg, rgba(15,226,235,1) 0%, rgba(194,29,253,1) 50%, rgba(252,176,69,1) 100%); */
+  background: rgb(17,153,142);
+  background: linear-gradient(90deg, rgba(17,153,142,1) 0%, rgba(56,239,125,1) 100%);
+  color: transparent;
+  background-clip: text;
+}
+
+.homeContent > p {width: 50vw;}
+
+.homeContent #greetingContainer {
+  display: flex;
+  align-items: center;
+}
+
+.homeContent #greeting {
+  font-family: 'IBM Plex Mono', monospace;
+  word-spacing: -5px;
+}
+
+.laptopIcon {color:white;}
+
+/* if the browser window is 1100px or smaller */
+@media only screen and (max-width: 1100px) {
+  .homeContent > p {width: 75vw;}
+}
+
+/* if the browser window is 750px or smaller */
+@media only screen and (max-width: 750px) {
+  .homeContent > p {
+    width: 95vw;
+    font-size: 14px;
+  }
+}

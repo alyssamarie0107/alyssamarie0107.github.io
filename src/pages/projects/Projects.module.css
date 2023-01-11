@@ -1,0 +1,32 @@
+.projectsContent {position: relative;}
+
+.projectsHeading {text-align: center;}
+
+.projectsHeading > p {
+    font-family: 'IBM Plex Mono', monospace;
+    word-spacing: -5px;
+}
+
+.TabsContainer {
+    width: 100vw;
+    margin: 20px 0;
+}
+
+.projectsContainer,
+.visitBtnsContainer {
+    display: flex;
+    justify-content: center;
+}
+
+.projectsContainer {flex-wrap: wrap;}
+
+.projectTechStack {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+    font-size: 11px;
+    font-family: 'IBM Plex Mono', monospace; 
+}
+
+.projectTechStack > li {margin: 0 5px;}

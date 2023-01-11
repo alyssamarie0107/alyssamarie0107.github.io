@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@900&family=Source+Sans+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+/* hide scrollbars - inserted because for framer motion, it was displaying scrollbars on animation (fade)*/
+body {
+    overflow: hidden;
+}
+
+h1 {font-size: 62px;}
+h2 {font-size: 58px;}
+h3 {font-size: 45px;}
+
+h1, h2, h3, h4, h5, h6 {font-family: 'Nunito Sans', sans-serif;}
+
+a {text-decoration: none;}
+
+p {margin: 5px;}
+
+body {
+    color: white;
+    font-size: 16px;
+    font-family: 'Source Sans Pro', sans-serif;
+    background-color: black;
+}
+
+/* if the browser window is 650px or smaller */
+@media only screen and (max-width: 650px) {
+    h1 {font-size: 44px;}
+    h2 {font-size: 40px;}
+    h3 {font-size: 36px;}
+}
+
+/* for both experience and projects page - tabs  */
+.nav-link {color: white;}
+
+.nav-pills .nav-link.active,
+.nav-tabs .nav-link.active,
+.nav-tabs .nav-link.active:hover {
+    color: black;
+    border: 1px solid transparent;
+    background: linear-gradient(transparent, transparent) padding-box,
+    linear-gradient(45deg, #11998E, #38EF7D) border-box 
+}
+
+.tab-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* specifically for experience tabs */
+.nav-pills .nav-link:hover {color: #38EF7D;}
+
+.nav-pills .nav-link.active {color: black;}
+
+/* specifically for projects tabs */
+.nav-tabs .nav-link {border: 1px solid white;}
+
+.nav-tabs .nav-link:hover {
+    color: white;
+    border: 1px solid transparent;
+    background: linear-gradient(black, black) padding-box,
+    linear-gradient(45deg, #11998E, #38EF7D) border-box;
+}
+
+/* fontawesome icon fixed width */
+.fa-fw {width: 3em;}

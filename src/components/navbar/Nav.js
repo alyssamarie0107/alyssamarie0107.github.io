@@ -23,7 +23,7 @@ const Nav = () => {
         <Navbar className={ styles.customNavbar } expand="lg" variant="dark" >
             <Container>
 
-                <Navbar.Brand href="/">
+                <Navbar.Brand href="/portfolio">
                     <img
                     src="images/logo.png"
                     width="40"

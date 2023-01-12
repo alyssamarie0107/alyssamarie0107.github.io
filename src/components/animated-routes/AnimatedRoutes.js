@@ -16,7 +16,7 @@ const AnimatedRoutes = () => {
               {/* creating a Route for each page */}
 
               {/* home page */}
-              <Route path="/portfolio" element={ <Home/> } />
+              <Route path="/portfolio/" element={ <Home/> } />
 
               {/* about page */}
               <Route path="/portfolio/about" element={ <About/> }/>

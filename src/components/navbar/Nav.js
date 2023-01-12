@@ -24,7 +24,7 @@ const Nav = () => {
         <Navbar className={ styles.customNavbar } expand="lg" variant="dark" >
             <Container>
 
-                <Navbar.Brand href="/portfolio">
+                <Navbar.Brand href="/portfolio/">
                     <img
                     src={ Logo }
                     width="40"
@@ -38,7 +38,7 @@ const Nav = () => {
 
                 <Navbar.Collapse className={ styles.navbarCollapse }>
                     {/* home page */}
-                    <NavLink to="/portfolio" style={({ isActive }) => isActive ? activeStyle : undefined} className={ styles.navBtn } end>Home</NavLink>
+                    <NavLink to="/portfolio/" style={({ isActive }) => isActive ? activeStyle : undefined} className={ styles.navBtn } end>Home</NavLink>
 
                     {/* about page */}
                     <NavLink to="/portfolio/about" style={({ isActive }) => isActive ? activeStyle : undefined} className={ styles.navBtn }>About</NavLink>

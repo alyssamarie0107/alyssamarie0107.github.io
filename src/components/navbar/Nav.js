@@ -25,7 +25,7 @@ const Nav = () => {
 
                 <Navbar.Brand href="/portfolio">
                     <img
-                    src="images/logo.png"
+                    src="/images/logo.png"
                     width="40"
                     height="40"
                     className="d-inline-block align-top"
@@ -37,7 +37,7 @@ const Nav = () => {
 
                 <Navbar.Collapse className={ styles.navbarCollapse }>
                     {/* home page */}
-                    <NavLink to="/portfolio" style={({ isActive }) => isActive ? activeStyle : undefined} className={ styles.navBtn }>Home</NavLink>
+                    <NavLink to="/portfolio" style={({ isActive }) => isActive ? activeStyle : undefined} className={ styles.navBtn } end>Home</NavLink>
 
                     {/* about page */}
                     <NavLink to="/portfolio/about" style={({ isActive }) => isActive ? activeStyle : undefined} className={ styles.navBtn }>About</NavLink>

@@ -25,7 +25,7 @@ const About = () => {
                         </div>
 
                         <img
-                            src="images/me.png"
+                            src="/images/me.png"
                             alt="React Bootstrap logo"
                         />
                     </div>

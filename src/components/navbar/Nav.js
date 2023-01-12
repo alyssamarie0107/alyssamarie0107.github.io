@@ -49,7 +49,7 @@ const Nav = () => {
                     <NavLink to="/portfolio/experience" style={({ isActive }) => isActive ? activeStyle : undefined} className={ styles.navBtn }>Experience</NavLink>
 
                     {/* projects page */}
-                    <NavLink to="/portfoli/projects" style={({ isActive }) => isActive ? activeStyle : undefined} className={ styles.navBtn }>Projects</NavLink>
+                    <NavLink to="/portfolio/projects" style={({ isActive }) => isActive ? activeStyle : undefined} className={ styles.navBtn }>Projects</NavLink>
 
                     {/* contact page */}
                     <NavLink to="/portfolio/contact" style={({ isActive }) => isActive ? activeStyle : undefined} className={ styles.navBtn }>Contact</NavLink>

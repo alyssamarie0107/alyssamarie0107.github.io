@@ -37,22 +37,22 @@ const Nav = () => {
 
                 <Navbar.Collapse className={ styles.navbarCollapse }>
                     {/* home page */}
-                    <NavLink to="/" style={({ isActive }) => isActive ? activeStyle : undefined} className={ styles.navBtn }>Home</NavLink>
+                    <NavLink to="/portfolio" style={({ isActive }) => isActive ? activeStyle : undefined} className={ styles.navBtn }>Home</NavLink>
 
                     {/* about page */}
-                    <NavLink to="/about" style={({ isActive }) => isActive ? activeStyle : undefined} className={ styles.navBtn }>About</NavLink>
+                    <NavLink to="/portfolio/about" style={({ isActive }) => isActive ? activeStyle : undefined} className={ styles.navBtn }>About</NavLink>
 
                     {/* skills page */}
-                    <NavLink to="/skills" style={({ isActive }) => isActive ? activeStyle : undefined} className={ styles.navBtn }>Skills</NavLink>
+                    <NavLink to="/portfolio/skills" style={({ isActive }) => isActive ? activeStyle : undefined} className={ styles.navBtn }>Skills</NavLink>
 
                     {/* experience page */}
-                    <NavLink to="/experience" style={({ isActive }) => isActive ? activeStyle : undefined} className={ styles.navBtn }>Experience</NavLink>
+                    <NavLink to="/portfolio/experience" style={({ isActive }) => isActive ? activeStyle : undefined} className={ styles.navBtn }>Experience</NavLink>
 
                     {/* projects page */}
-                    <NavLink to="/projects" style={({ isActive }) => isActive ? activeStyle : undefined} className={ styles.navBtn }>Projects</NavLink>
+                    <NavLink to="/portfoli/projects" style={({ isActive }) => isActive ? activeStyle : undefined} className={ styles.navBtn }>Projects</NavLink>
 
                     {/* contact page */}
-                    <NavLink to="/contact" style={({ isActive }) => isActive ? activeStyle : undefined} className={ styles.navBtn }>Contact</NavLink>
+                    <NavLink to="/portfolio/contact" style={({ isActive }) => isActive ? activeStyle : undefined} className={ styles.navBtn }>Contact</NavLink>
                 </Navbar.Collapse>
             </Container>
         </Navbar>

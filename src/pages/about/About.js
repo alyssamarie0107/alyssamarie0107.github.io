@@ -1,4 +1,5 @@
 import styles from './About.module.css';
+import Me from '../../assets/images/me.png';
 import { motion } from 'framer-motion';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faAddressCard } from '@fortawesome/free-solid-svg-icons'; 
@@ -25,7 +26,7 @@ const About = () => {
                         </div>
 
                         <img
-                            src="/images/me.png"
+                            src={ Me }
                             alt="React Bootstrap logo"
                         />
                     </div>

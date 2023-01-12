@@ -1,4 +1,5 @@
 import styles from './Nav.module.css';
+import Logo from '../../assets/images/logo.png';
 import { Navbar, Container } from 'react-bootstrap';
 import { NavLink } from 'react-router-dom';
 
@@ -25,7 +26,7 @@ const Nav = () => {
 
                 <Navbar.Brand href="/portfolio">
                     <img
-                    src="/images/logo.png"
+                    src={ Logo }
                     width="40"
                     height="40"
                     className="d-inline-block align-top"

@@ -1,20 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@900&family=Source+Sans+Pro&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
-
-*::-webkit-media-controls-panel {
-    display: none!important;
-    -webkit-appearance: none;
-}
-
-*::-webkit-media-controls-play-button {
-display: none!important;
--webkit-appearance: none;
-}
-
-*::-webkit-media-controls-start-playback-button {
-display: none!important;
--webkit-appearance: none;
-}
   
 h1 {font-size: 62px;}
 h2 {font-size: 58px;}
@@ -30,7 +15,6 @@ body {
     color: white;
     font-size: 16px;
     font-family: 'Source Sans Pro', sans-serif;
-    background-color: black;
 }
 
 /* for both experience and projects page - tabs  */

@@ -1,11 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@900&family=Source+Sans+Pro&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 
-/* hide scrollbars - inserted because for framer motion, it was displaying scrollbars on animation (fade)*/
-body {
-    overflow: hidden;
-}
-
 h1 {font-size: 62px;}
 h2 {font-size: 58px;}
 h3 {font-size: 45px;}

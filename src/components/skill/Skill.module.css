@@ -10,7 +10,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 5px;
+    margin: 15px 8px 8px 8px;
     border-radius: 50%;
     border: 1.5px solid transparent;
     background: linear-gradient(black, black) padding-box,

@@ -23,10 +23,9 @@
     flex-wrap: wrap;
     width: 40vw;
     justify-content: center;
-    margin-top: 20px;
 }
 
-/* if the browser window is 750px or smaller */
-@media only screen and (max-width: 750px) {
+/* for large mobile devices (425px) or medium mobile devices (375px) or smaller */
+@media only screen and (max-width: 425px) {
     .skills {width:48vw;}
 }

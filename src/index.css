@@ -66,9 +66,6 @@ body {
     linear-gradient(45deg, #11998E, #38EF7D) border-box;
 }
 
-/* fontawesome icon fixed width */
-.fa-fw {width: 3em;}
-
 /* for tablet devices (650px or smaller)*/
 @media only screen and (max-width: 650px) {
     h1 {font-size: 44px;}

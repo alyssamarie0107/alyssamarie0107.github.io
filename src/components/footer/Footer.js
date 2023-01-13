@@ -5,7 +5,7 @@ import SocialBtns from '../buttons/social/SocialBtns';
 const getCurrentYear = () => {
     const date = new Date();
     let current_year = date.getFullYear();
-    return `©${ current_year } Designed & Built by Alyssa Rodriguez.`;
+    return `©${ current_year } Alyssa Rodriguez`;
 }
 
 const Footer = () => {

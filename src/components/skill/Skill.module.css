@@ -1,6 +1,9 @@
+.Skill {margin: 12px;}
+
 .skillContainer {
     display: flex;
     flex-direction: column;
+    text-align: center;
 }
 
 .skillContainer > div {
@@ -10,7 +13,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 15px 8px 8px 8px;
+    margin-bottom: 8px;
     border-radius: 50%;
     border: 1.5px solid transparent;
     background: linear-gradient(black, black) padding-box,

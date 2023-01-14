@@ -3,28 +3,23 @@ import { motion } from 'framer-motion';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCode } from '@fortawesome/free-solid-svg-icons';
 import { Tab, Tabs } from 'react-bootstrap';
-import Footer from '../../components/footer/Footer';
-import Nav from '../../components/navbar/Nav';
-import VideoWrapper from '../../components/video-wrapper/VideoWrapper';
 import ProjectCard from '../../components/project-card/ProjectCard';
 import VisitBtn from '../../components/buttons/visit/VisitBtn';
 
 const Projects = () => {
     return (
-        <motion.div
+        <motion.section
             className={ styles.Projects } 
             initial={{ opacity: 0 }} 
             animate={{ opacity: 1 }} 
             exit={{ opacity: 0, transition: { duration: 0.3 } }}>
-            <VideoWrapper>
-                <Nav/>
-
+                
+                <div className={ styles.projectsHeading }>
+                    <p>What have I built?</p>
+                    <h3>Projects <FontAwesomeIcon icon={ faCode }/></h3>
+                </div>
+                
                 <div className={ styles.projectsContent }>
-                    <div className={ styles.projectsHeading }>
-                        <p>What have I built?</p>
-                        <h3>Projects <FontAwesomeIcon icon={ faCode }/></h3>
-                    </div>
-
                     {/*  using react-bootstrap's tabs component */}
                     {/* reference: https://react-bootstrap.netlify.app/components/tabs/ */}
                     <Tabs className={ styles.TabsContainer } defaultActiveKey="web" justify>
@@ -176,10 +171,7 @@ const Projects = () => {
                         </Tab>
                     </Tabs>
                 </div>
-                
-                <Footer/>
-            </VideoWrapper>
-        </motion.div>
+        </motion.section>
     );
 }
  

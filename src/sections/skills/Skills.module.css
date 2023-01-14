@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@300&display=swap');
+
+.Skills {background-color: rgb(14, 13, 13);}
+
+.skillsHeading {margin-bottom: 30px;}
+
+.skillsHeading > p {
+    text-align: center;
+    font-family: 'IBM Plex Mono', monospace;
+    word-spacing: -5px;
+}
+
+.skillsContainer {display: flex;}
+
+.developmentSkills,
+.toolsSkills > h5 {text-align: center;}
+
+.developmentSkills,
+.toolsSkills {
+    width: 40vw;
+}
+
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/* for large mobile devices (425px) or medium mobile devices (375px) or smaller */
+@media only screen and (max-width: 425px) {
+    .skillsContainer {flex-direction: column;}
+
+    .developmentSkills,
+    .toolsSkills {width: 90vw;}
+
+    .developmentSkills {margin-bottom: 20px;}
+}

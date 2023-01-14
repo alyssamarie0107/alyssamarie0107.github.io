@@ -1,16 +1,15 @@
-.projectsContent {position: relative;}
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@300&display=swap');
 
-.projectsHeading {text-align: center;}
+.projectsHeading {margin-bottom: 30px;}
 
 .projectsHeading > p {
+    text-align: center;
     font-family: 'IBM Plex Mono', monospace;
     word-spacing: -5px;
 }
+.projectsContent {width: 100%;}
 
-.TabsContainer {
-    width: 100vw;
-    margin: 20px 0;
-}
+.TabsContainer {margin-bottom: 30px;}
 
 .projectsContainer,
 .visitBtnsContainer {

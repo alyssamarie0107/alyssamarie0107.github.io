@@ -1,16 +1,23 @@
 import './App.css';
-import { BrowserRouter as Router } from 'react-router-dom';
-import AnimatedRoutes from './components/animated-routes/AnimatedRoutes';
+import Home from './sections/home/Home';
+import About from './sections/about/About';
+import Skills from './sections/skills/Skills';
+import Experience from './sections/experience/Experience';
+import Projects from './sections/projects/Projects';
+import Contact from './sections/contact/Contact';
+import Footer from './components/footer/Footer';
 
 const App = () => {
   return (
-    <Router>
       <div className="App">
-        {/* switch component makes sure that only one route shows one at a time */}
-        {/* all Route components go inside the Switch component*/}
-        <AnimatedRoutes/>
+        <Home/>
+        <About/>
+        <Skills/>
+        <Experience/>
+        <Projects/>
+        <Contact/>
+        <Footer/>
       </div>
-    </Router>
   );
 }
 

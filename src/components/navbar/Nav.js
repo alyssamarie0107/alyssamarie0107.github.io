@@ -1,7 +1,6 @@
 import styles from './Nav.module.css';
 import Logo from '../../assets/images/logo.png';
-import { Navbar, Container } from 'react-bootstrap';
-import { NavLink } from 'react-router-dom';
+import { Nav, Navbar, Container } from 'react-bootstrap';
 
 /* 
  * if you want react to handle the routing only in the browswer 
@@ -11,14 +10,14 @@ import { NavLink } from 'react-router-dom';
  * 
  * Instead of Link, using NavLink since it has attributes for active link
 */ 
-const Nav = () => {
+const MyNav = () => {
     // styling for active link
-    let activeStyle = {
-        color: "black",
-        padding: "5px 20px",
-        border: "1.5px solid black",
-        background: 'linear-gradient(transparent, transparent) padding-box, linear-gradient(45deg, rgba(17,153,142,1), rgba(56,239,125,1))'
-    };
+    // let activeStyle = {
+    //     color: "black",
+    //     padding: "5px 20px",
+    //     border: "1.5px solid black",
+    //     background: 'linear-gradient(transparent, transparent) padding-box, linear-gradient(45deg, rgba(17,153,142,1), rgba(56,239,125,1))'
+    // };
     
     return (
         <Navbar className={ styles.customNavbar } expand="lg" variant="dark" >
@@ -38,26 +37,26 @@ const Nav = () => {
 
                 <Navbar.Collapse className={ styles.navbarCollapse }>
                     {/* home page */}
-                    <NavLink to="/portfolio/" style={({ isActive }) => isActive ? activeStyle : undefined} className={ styles.navBtn } end>Home</NavLink>
+                    <Nav.Link to="/portfolio/" className={ styles.navBtn }>Home</Nav.Link>
 
                     {/* about page */}
-                    <NavLink to="/portfolio/about" style={({ isActive }) => isActive ? activeStyle : undefined} className={ styles.navBtn }>About</NavLink>
+                    <Nav.Link to="/portfolio/about" className={ styles.navBtn }>About</Nav.Link>
 
                     {/* skills page */}
-                    <NavLink to="/portfolio/skills" style={({ isActive }) => isActive ? activeStyle : undefined} className={ styles.navBtn }>Skills</NavLink>
+                    <Nav.Link to="/portfolio/skills" className={ styles.navBtn }>Skills</Nav.Link>
 
                     {/* experience page */}
-                    <NavLink to="/portfolio/experience" style={({ isActive }) => isActive ? activeStyle : undefined} className={ styles.navBtn }>Experience</NavLink>
+                    <Nav.Link to="/portfolio/experience" className={ styles.navBtn }>Experience</Nav.Link>
 
                     {/* projects page */}
-                    <NavLink to="/portfolio/projects" style={({ isActive }) => isActive ? activeStyle : undefined} className={ styles.navBtn }>Projects</NavLink>
+                    <Nav.Link to="/portfolio/projects" className={ styles.navBtn }>Projects</Nav.Link>
 
                     {/* contact page */}
-                    <NavLink to="/portfolio/contact" style={({ isActive }) => isActive ? activeStyle : undefined} className={ styles.navBtn }>Contact</NavLink>
+                    <Nav.Link to="/portfolio/contact" className={ styles.navBtn }>Contact</Nav.Link>
                 </Navbar.Collapse>
             </Container>
         </Navbar>
     );
 }
  
-export default Nav;
+export default MyNav;

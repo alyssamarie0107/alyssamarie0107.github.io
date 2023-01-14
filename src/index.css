@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@900&family=Source+Sans+Pro&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
-  
+
 h1 {font-size: 62px;}
 h2 {font-size: 58px;}
 h3 {font-size: 45px;}
@@ -12,9 +11,19 @@ a {text-decoration: none;}
 p { margin-bottom: 8px;}
 
 body {
+    min-height: 100vh;
     color: white;
     font-size: 16px;
     font-family: 'Source Sans Pro', sans-serif;
+}
+
+section {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgb(14, 13, 13);
 }
 
 /* for both experience and projects page - tabs  */

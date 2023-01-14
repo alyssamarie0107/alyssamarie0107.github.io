@@ -1,4 +1,9 @@
-.homeContent {position: relative;}
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@300&display=swap');
+
+.homeContent {
+  margin: auto;
+  position: relative;
+}
 
 .homeContent > h2 {
   background: rgb(17,153,142);
@@ -7,20 +12,21 @@
   background-clip: text;
 }
 
-.homeContent > p {width: 50vw;}
-
 .homeContent #greetingContainer {
   display: flex;
   align-items: center;
 }
 
 .homeContent #greeting {
-
-  font-family: 'IBM Plex Mono', monospace;
   word-spacing: -5px;
+  font-family: 'IBM Plex Mono', monospace;
+  margin-bottom: 0px;
+  margin-right: 8px;
 }
 
 .laptopIcon {color:white;}
+
+.homeContent > p {width: 50vw;}
 
 /* if the browser window is 1100px or smaller */
 @media only screen and (max-width: 1100px) {

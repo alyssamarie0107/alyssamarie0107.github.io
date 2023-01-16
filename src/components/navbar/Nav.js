@@ -1,5 +1,5 @@
 import styles from './Nav.module.css';
-import Logo from '../../assets/images/logo.png';
+import Logo from '../../assets/images/title-logo.png';
 import { Nav, Navbar, Container } from 'react-bootstrap';
 
 /* 

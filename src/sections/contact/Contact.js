@@ -10,7 +10,9 @@ const Contact = () => {
             className={ styles.Contact } 
             initial={{ opacity: 0 }} 
             animate={{ opacity: 1 }} 
-            exit={{ opacity: 0, transition: { duration: 0.3 } }}>
+            exit={{ opacity: 0, transition: { duration: 0.3 } }}
+            id="contact">
+                
                 <div className={ styles.contactHeading }>
                     <p>What's Next?</p>
                     <h3>Get in Touch <FontAwesomeIcon icon={ faMessage }/></h3>

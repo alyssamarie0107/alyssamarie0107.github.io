@@ -11,7 +11,8 @@ const About = () => {
             className={ styles.About } 
             initial={{ opacity: 0 }} 
             animate={{ opacity: 1 }} 
-            exit={{ opacity: 0, transition: { duration: 0.3 } }}>
+            exit={{ opacity: 0, transition: { duration: 0.3 } }}
+            id="about">
 
             <div className={ styles.aboutHeading }>
                 <p>Who am I?</p>

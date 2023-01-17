@@ -1,6 +1,7 @@
 import styles from './Nav.module.css';
 import Logo from '../../assets/images/title-logo.png';
-import { Nav, Navbar, Container } from 'react-bootstrap';
+import { Navbar, Container } from 'react-bootstrap';
+import { Link } from 'react-scroll';
 
 /* 
  * if you want react to handle the routing only in the browswer 
@@ -8,21 +9,18 @@ import { Nav, Navbar, Container } from 'react-bootstrap';
  * tags with Link instead. Note, Link does not use href attribute,
  * but rather uses 'to'.
  * 
- * Instead of Link, using NavLink since it has attributes for active link
+ * Instead of Link from bootstrap, using Link from react-scroll
+ * https://www.npmjs.com/package/react-scroll
 */ 
 const MyNav = () => {
-    // styling for active link
-    // let activeStyle = {
-    //     color: "black",
-    //     padding: "5px 20px",
-    //     border: "1.5px solid black",
-    //     background: 'linear-gradient(transparent, transparent) padding-box, linear-gradient(45deg, rgba(17,153,142,1), rgba(56,239,125,1))'
-    // };
-    
     return (
-        <Navbar className={ styles.customNavbar } expand="lg" variant="dark" >
+        // fixed navbar
+        <Navbar
+            className={ styles.customNavbar } 
+            expand="lg" 
+            variant="dark" 
+            fixed="top">
             <Container>
-
                 <Navbar.Brand href="/portfolio/">
                     <img
                     src={ Logo }
@@ -37,22 +35,76 @@ const MyNav = () => {
 
                 <Navbar.Collapse className={ styles.navbarCollapse }>
                     {/* home page */}
-                    <Nav.Link to="/portfolio/" className={ styles.navBtn }>Home</Nav.Link>
+                    <Link
+                        className={ styles.navBtn }
+                        activeClass={ styles.navBtnActive }
+                        to="home" 
+                        spy={true} 
+                        smooth={true} 
+                        offset={-50} 
+                        duration={100}>
+                        Home
+                    </Link>
 
                     {/* about page */}
-                    <Nav.Link to="/portfolio/about" className={ styles.navBtn }>About</Nav.Link>
+                    <Link
+                        className={ styles.navBtn }
+                        activeClass={ styles.navBtnActive }
+                        to="about"
+                        spy={true}
+                        smooth={true}
+                        offset={0}
+                        duration={100}>
+                        About
+                    </Link>
 
                     {/* skills page */}
-                    <Nav.Link to="/portfolio/skills" className={ styles.navBtn }>Skills</Nav.Link>
+                    <Link
+                        className={ styles.navBtn }
+                        activeClass={ styles.navBtnActive }
+                        to="skills"
+                        spy={true}
+                        smooth={true}
+                        offset={0}
+                        duration={100}>
+                        Skills
+                    </Link>
 
                     {/* experience page */}
-                    <Nav.Link to="/portfolio/experience" className={ styles.navBtn }>Experience</Nav.Link>
+                    <Link 
+                        className={ styles.navBtn }
+                        activeClass={ styles.navBtnActive }
+                        to="experience"
+                        spy={true}
+                        smooth={true}
+                        offset={0}
+                        duration={100}>
+                        Experence
+                    </Link>
 
                     {/* projects page */}
-                    <Nav.Link to="/portfolio/projects" className={ styles.navBtn }>Projects</Nav.Link>
+                    <Link 
+                        className={ styles.navBtn }
+                        activeClass={ styles.navBtnActive }
+                        to="projects"
+                        spy={true}
+                        smooth={true}
+                        offset={0}
+                        duration={100}>
+                        Projects
+                    </Link>
 
                     {/* contact page */}
-                    <Nav.Link to="/portfolio/contact" className={ styles.navBtn }>Contact</Nav.Link>
+                    <Link 
+                        className={ styles.navBtn }
+                        activeClass={ styles.navBtnActive }
+                        to="contact"
+                        spy={true}
+                        smooth={true}
+                        offset={0}
+                        duration={100}>
+                        Contact
+                    </Link>
                 </Navbar.Collapse>
             </Container>
         </Navbar>

@@ -64,6 +64,8 @@ section {
     h1 {font-size: 44px;}
     h2 {font-size: 38px;}
     h3 {font-size: 36px;}
+
+    section {padding-bottom: 30px;}
 }
 
 /* for large mobile devices (425px) or medium mobile devices (375px) or smaller */

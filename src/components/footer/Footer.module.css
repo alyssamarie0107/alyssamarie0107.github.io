@@ -1,32 +1,13 @@
-@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@300&display=swap');
-
 .Footer {
     display: flex;
-    align-items: flex-end;
-    justify-content: space-between;
-    position: relative;
     padding: 0 30px;
-    color: white;
-    background-color: rgb(14, 13, 13);
+    color: var(--black);
+    background-color: var(--seagreen);
 }
 
 .Footer > span {
     margin-bottom: 12px;
-    font-size: 13px;
-    font-family: 'IBM Plex Mono', monospace;
+    font-size: 12px;
+    font-family: var(--ibm-font);
     word-spacing: -3px;
-}
-
-/* if the browser window is 1100px or smaller */
-@media only screen and (max-width: 1100px) {
-    .Footer {
-        align-items: center;
-        font-size: 11px;
-        padding: 15px 30px 5px 30px;
-    }
-
-    .Footer > span {
-        margin: 0;
-        font-size: 10px;
-    }
 }

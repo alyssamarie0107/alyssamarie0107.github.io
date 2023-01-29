@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@300&family=Inter:wght@400;700&family=Overpass:wght@300;700&family=Syne:wght@700&display=swap');
+
+:root {
+    /* fonts */
+    --header-font: 'Syne', sans-serif;
+    --body-font: 'Inter', sans-serif;
+    --nav-font: 'Overpass', sans-serif;
+    --ibm-font:'IBM Plex Mono', monospace;
+    
+    /* color palette */
+    --black: #0D1321;
+    --seagreen: #84A98C;
+    --ashgray: #CAD2C5;
+    --white: #ffffff;
+  }  

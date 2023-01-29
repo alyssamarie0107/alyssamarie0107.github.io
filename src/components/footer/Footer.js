@@ -1,5 +1,4 @@
 import styles from './Footer.module.css';
-import SocialBtns from '../buttons/social/SocialBtns';
 
 // helper function that gets the current year for the copyright in footer
 const getCurrentYear = () => {
@@ -11,8 +10,6 @@ const getCurrentYear = () => {
 const Footer = () => {
     return (
         <footer className={ styles.Footer }>
-            <SocialBtns/>
-            
             <span>{ getCurrentYear() }</span>
         </footer>
     );

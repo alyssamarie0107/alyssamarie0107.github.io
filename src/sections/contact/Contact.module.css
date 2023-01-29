@@ -1,33 +1,25 @@
-@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@300&display=swap');
+#contactHeading {margin-bottom: 20px;}
 
-.contactHeading {margin-bottom: 20px;}
-
-.contactHeading > p {
+#contactHeading > p {
     text-align: center;
-    font-family: 'IBM Plex Mono', monospace;
+    font-family: var(--ibm-font);
     word-spacing: -5px;
 }
 
-.contactContent {
+#contactContainer {
     width: 60vw;
     display: flex;
+    color: var(--black);
     flex-direction: column;
     align-items: center;
 }
 
-.contactContent {text-align: center;}
-
-.contactHeading > p {
-    font-family: 'IBM Plex Mono', monospace;
-    word-spacing: -5px;
-}
-
-.contactContent > p {
+#contactContainer > p {
     text-align: center;
     margin-bottom: 16px;
 }
 
 /* for large, medium, and small mobile devices */
 @media only screen and (max-width: 425px) {
-    .contactContent {width: 85vw;}
+    #contactContainer {width: 85vw;}
 }

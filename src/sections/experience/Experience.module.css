@@ -1,31 +1,33 @@
-@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@300&display=swap');
+#experienceHeading {margin-bottom: 30px;}
 
-.experienceHeading {margin-bottom: 30px;}
-
-.experienceHeading > p {
+#experienceHeading > p {
     text-align: center;
-    font-family: 'IBM Plex Mono', monospace;
+    font-family: var(--ibm-font);
     word-spacing: -5px;
 }
 
-.experienceContent,
+.panel {width: 80vw;}
+
+#experienceContainer,
 .pillsContainer {
     display: flex;
     flex-direction: column;
 }
 
-.experienceContent ul {
+#experienceContainer ul {
+    width: 90%;
     margin-top: 12px;
     padding: 5px 25px;
     border-radius: 10px;
     border: 1px solid white;
     list-style: circle;
+    background-color: var(--black);
 }
-.experienceContent ul > li > a {color: white;}
+#experienceContainerul > li > a {color: white;}
 
-.experienceContent ul > li > a:hover {text-decoration: underline;}
+#experienceContainer ul > li > a:hover {text-decoration: underline;}
 
-.experienceHeading > p,
+#experienceHeading > p,
 .date {
     font-family: 'IBM Plex Mono', monospace;
     word-spacing: -5px;
@@ -34,15 +36,3 @@
 .date {font-size: 13px;}
 
 .panel {margin: 0;}
-
-.visitBtnsContainer {
-    display: flex;
-    justify-content: center;
-    margin: 5px;
-}
-
-@media only screen and (max-width: 575px) {
-    .experienceContent ul {width: 95vw;}
-
-    .pillsContainer {margin-bottom: 16px;}
-}

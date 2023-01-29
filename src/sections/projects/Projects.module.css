@@ -1,31 +1,21 @@
-@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@300&display=swap');
+#projectsHeading {margin-bottom: 30px;}
 
-.projectsHeading {margin-bottom: 30px;}
-
-.projectsHeading > p {
+#projectsHeading > p {
     text-align: center;
-    font-family: 'IBM Plex Mono', monospace;
+    font-family: var(--ibm-font);
     word-spacing: -5px;
 }
-.projectsContent {width: 100%;}
 
-.TabsContainer {margin-bottom: 30px;}
-
-.projectsContainer,
-.visitBtnsContainer {
-    display: flex;
-    justify-content: center;
+.TabsContainer {
+    border: none;
+    margin-bottom: 20px;
 }
 
-.projectsContainer {flex-wrap: wrap;}
-
-.projectTechStack {
+.projectsContainer {
+    width: 90vw;
     display: flex;
     justify-content: center;
-    list-style: none;
-    padding: 0;
-    font-size: 11px;
-    font-family: 'IBM Plex Mono', monospace; 
+    flex-wrap: wrap;
 }
 
-.projectTechStack > li {margin: 0 5px;}
+.projectViewBtns {display: flex;}

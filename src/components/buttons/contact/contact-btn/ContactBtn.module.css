@@ -1,16 +1,17 @@
 .ContactBtn {
-    color: white;
+    color: var(--black);
     padding: 8px 20px;
     margin-right: 10px;
     border-radius: 20px;
     cursor: pointer;
-    border: 1.5px solid transparent;
-    background: linear-gradient(black, black) padding-box,
-    linear-gradient(45deg, #11998E, #38EF7D) border-box;
+    /* offset-x | offset-y | blur-radius | spread-radius | color */
+    box-shadow: -5px 5px 4px 0px rgba(0,0,0,0.5);
+    background-color: var(--ashgray);
+    transition: all 0.3s ease 0s;
 }
 
 .ContactBtn:hover {
-    color: white;
-    background: linear-gradient(black, black) padding-box,
-    linear-gradient(45deg, #38EF7D, white) border-box;
+    color: var(--white);
+    background-color: var(--black);
+    transform: translateY(-3px);
 }

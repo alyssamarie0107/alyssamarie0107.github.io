@@ -1,41 +1,38 @@
-@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@300&display=swap');
+/* home section css */
+.Home {position: relative;}
 
-.homeContent {
-  margin: auto;
-  position: relative;
-}
-
-.homeContent > h2 {
-  background: rgb(17,153,142);
-  background: linear-gradient(90deg, rgba(17,153,142,1) 0%, rgba(56,239,125,1) 100%);
-  color: transparent;
-  background-clip: text;
-}
-
-.homeContent #greetingContainer {
-  display: flex;
-  align-items: center;
-}
-
-.homeContent #greeting {
+#greeting {
+  color: var(--black);
+  font-family: var(--ibm-font);
   word-spacing: -5px;
-  font-family: 'IBM Plex Mono', monospace;
-  margin-bottom: 0px;
-  margin-right: 8px;
+  margin: 0 8px 0 4px;
 }
 
-.laptopIcon {color:white;}
+#homeContainer > h1, 
+#homeContainer > h2 {
+  /* offset-x | offset-y | blur-radius | color */
+  text-shadow: 0 7px 8px rgb(2 11 22 / 50%);
+}
 
-.homeContent > p {width: 50vw;}
+#homeContainer > h2,
+#homeContainer > p {color: var(--black);}
+
+#homeContainer > p {width: 48vw;}
+
+#WorldWebSVG {
+  bottom: 0;
+  right: 0;
+  position: absolute;
+}
 
 /* if the browser window is 1100px or smaller */
 @media only screen and (max-width: 1100px) {
-  .homeContent > p {width: 75vw;}
+  #homeContainer > p {width: 75vw;}
 }
 
 /* if the browser window is 750px or smaller */
 @media only screen and (max-width: 750px) {
-  .homeContent > p {
+  #homeContainer > p {
     width: 95vw;
     font-size: 14px;
   }

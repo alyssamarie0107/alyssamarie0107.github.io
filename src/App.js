@@ -1,9 +1,11 @@
 import './App.css';
+import './variables.css';
+
 import MyNav from './components/navbar/Nav';
 import Home from './sections/home/Home';
 import About from './sections/about/About';
 import Skills from './sections/skills/Skills';
-import Testimonial from './components/testimonial/Testimonial';
+import Testimony from './sections/testimony/Testimony';
 import Experience from './sections/experience/Experience';
 import Projects from './sections/projects/Projects';
 import Contact from './sections/contact/Contact';
@@ -16,7 +18,7 @@ const App = () => {
         <Home/>
         <About/>
         <Skills/>
-        <Testimonial/>
+        <Testimony/>
         <Experience/>
         <Projects/>
         <Contact/>

@@ -1,0 +1,105 @@
+/* scrollbar css */
+/* width */
+*::-webkit-scrollbar {width: 7px;}
+
+/* track */
+*::-webkit-scrollbar-track {background: var(--black); }
+   
+/* handle */
+*::-webkit-scrollbar-thumb {
+    border-radius: 14px;
+    background: rgba(255, 255, 255, 0.9); 
+}
+  
+/* handle on hover */
+*::-webkit-scrollbar-thumb:hover {background: rgba(255, 255, 255, 0.9); }
+
+/* end scrollbar css */
+
+/* global css */
+h1 {font-size: 62px;}
+h2 {font-size: 58px;}
+h3 {
+    font-size: 45px;
+    color: var(--black);
+    text-shadow: 0 7px 8px rgb(2 11 22 / 50%);
+}
+
+h1, h2, h3, h4, h5, h6 {font-family: var(--header-font);}
+
+a {text-decoration: none;}
+
+p {margin-bottom: 8px;}
+
+body {
+    min-height: 100vh;
+    color: white;
+    font-size: 14px;
+    font-family: var(--body-font);
+}
+
+section {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: var(--seagreen);
+}
+
+/* for both experience and projects page - tabs  */
+.nav-pills .nav-link.active,
+.nav-tabs .nav-link.active,
+.nav-tabs .nav-link.active:hover {
+    color: var(--white);
+    border: 1px solid transparent;
+    background-color: var(--black);
+}
+
+.tab-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* specifically for experience tabs */
+.nav-pills .nav-link {color: var(--white);}
+.nav-pills .nav-link:hover {color: var(--black);}
+
+.nav-pills .nav-link.active:hover {color: var(--white);}
+
+/* specifically for projects tabs */
+.nav-tabs .nav-link {
+    color: var(--black);
+    margin: 5px;
+    border-radius: 10px;
+    background-color: var(--ashgray);
+    transition: all 0.3s ease 0s;
+}
+
+.nav-tabs .nav-link:hover {
+    border: 1px solid var(--black);
+}
+
+/* if browser window is tablet device (650px or smaller) or smaller*/
+@media only screen and (max-width: 650px) {
+    h1 {font-size: 44px;}
+    h2 {font-size: 38px;}
+    h3 {font-size: 36px;}
+
+    section {padding-bottom: 30px;}
+}
+
+/* if browser window is large mobile device(425px) or smaller */
+@media only screen and (max-width: 425px) {
+    h1 {font-size: 35px;}
+    h2 {font-size: 32px;}
+    h3 {font-size: 36px;}
+}
+
+/* if browser window is small mobile device (320px or smaller) or smaller*/
+@media only screen and (max-width: 320px) {
+    h1 {font-size: 28px;}
+    h2 {font-size: 26px;}
+    h3 {font-size: 22px;}
+}

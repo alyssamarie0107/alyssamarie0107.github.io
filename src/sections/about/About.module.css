@@ -1,50 +1,33 @@
-@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@300&display=swap');
+/* about section css */
+.About {position: relative;}
 
-.aboutHeading {margin-bottom: 30px;}
+#SparksSVG {
+    bottom: 30px;
+    right: 0;
+    position: absolute;
+}
 
-.aboutHeading > p {
+#Sparks2SVG {
+    top: 70px;
+    left: 0;
+    position: absolute;
+}
+
+#aboutHeading {margin-bottom: 30px;}
+
+#aboutHeading > p {
     text-align: center;
-    font-family: 'IBM Plex Mono', monospace;
+    font-family: var(--ibm-font);
     word-spacing: -5px;
 }
 
-.aboutContent {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-.left {
+#about {
     width: 50vw;
-    margin-right: 40px;
+    padding: 20px;
+    border-radius: 15px;
+    color: var(--black);
+    border: 1px solid var(--ashgray);
+    box-shadow: -20px 10px var(--ashgray);
 }
 
-.right > img {width: 25vw;}
-
-.contactBtnsContainer {
-    display: flex;
-    justify-content: center;
-}
-
-/* if the browser window is 1100px or smaller */
-@media only screen and (max-width: 1100px) {
-    .aboutContent {
-        justify-content: center;
-        flex-direction: column;
-    }
-
-    .left {
-        width: 90vw;
-        margin-right: 0;
-        margin-bottom: 40px;
-    }
-}
-
-/* for medium and large mobile devices (425px) or smaller */
-@media only screen and (max-width: 425px) {
-    .left > p {font-size: 14px;}
-}
-
-@media only screen and (max-width: 320px) {
-    .left {margin-bottom: 20px;}
-}
+#about span {background-color: red;}

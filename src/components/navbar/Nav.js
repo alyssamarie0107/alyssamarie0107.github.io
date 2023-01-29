@@ -1,7 +1,8 @@
 import styles from './Nav.module.css';
-import Logo from '../../assets/images/title-logo.png';
+// import React, { useState } from 'react';
 import { Navbar, Container } from 'react-bootstrap';
 import { Link } from 'react-scroll';
+import SocialBtns from '../buttons/social/SocialBtns';
 
 /* 
  * if you want react to handle the routing only in the browswer 
@@ -13,30 +14,44 @@ import { Link } from 'react-scroll';
  * https://www.npmjs.com/package/react-scroll
 */ 
 const MyNav = () => {
+    // const [colorChange, setColorchange] = useState(false);
+
+    // const changeNavbarColor = () =>{
+    //     if(window.scrollY >= 720){
+    //       setColorchange(true);
+    //     }
+    //     else{
+    //       setColorchange(false);
+    //     }
+    //  };
+
+    //  window.addEventListener('scroll', changeNavbarColor);
     return (
         // fixed navbar
         <Navbar
-            className={ styles.customNavbar } 
+            // className={colorChange ? styles.customNavbar2 : styles.customNavbar }
+            className = { styles.customNavbar  }
             expand="lg" 
             variant="dark" 
             fixed="top">
             <Container>
-                <Navbar.Brand href="/portfolio/">
-                    <img
-                    src={ Logo }
-                    width="40"
-                    height="40"
-                    className="d-inline-block align-top"
-                    alt="React Bootstrap logo"
-                    />
-                </Navbar.Brand>
+                {/* <Navbar.Brand href="/portfolio/">
+                    <Link
+                        className= {styles.navBrand}
+                        to="home" 
+                        spy={true} 
+                        smooth={true} 
+                        offset={-50} 
+                        duration={100}>AR</Link>
+                </Navbar.Brand> */}
 
                 <Navbar.Toggle aria-controls="responsive-navbar-nav"/>
 
                 <Navbar.Collapse className={ styles.navbarCollapse }>
                     {/* home page */}
                     <Link
-                        className={ styles.navBtn }
+                        // className={colorChange ? styles.navBtn2 : styles.navBtn }
+                        className = { styles.navBtn   }
                         activeClass={ styles.navBtnActive }
                         to="home" 
                         spy={true} 
@@ -48,7 +63,8 @@ const MyNav = () => {
 
                     {/* about page */}
                     <Link
-                        className={ styles.navBtn }
+                        // className={colorChange ? styles.navBtn2 : styles.navBtn }
+                        className = { styles.navBtn }
                         activeClass={ styles.navBtnActive }
                         to="about"
                         spy={true}
@@ -60,7 +76,8 @@ const MyNav = () => {
 
                     {/* skills page */}
                     <Link
-                        className={ styles.navBtn }
+                        // className={colorChange ? styles.navBtn2 : styles.navBtn }
+                        className = { styles.navBtn }
                         activeClass={ styles.navBtnActive }
                         to="skills"
                         spy={true}
@@ -72,19 +89,21 @@ const MyNav = () => {
 
                     {/* experience page */}
                     <Link 
-                        className={ styles.navBtn }
+                        // className={colorChange ? styles.navBtn2 : styles.navBtn }
+                        className = { styles.navBtn }
                         activeClass={ styles.navBtnActive }
                         to="experience"
                         spy={true}
                         smooth={true}
                         offset={0}
                         duration={100}>
-                        Experence
+                        Experience
                     </Link>
 
                     {/* projects page */}
                     <Link 
-                        className={ styles.navBtn }
+                        // className={colorChange ? styles.navBtn2 : styles.navBtn }
+                        className = { styles.navBtn   }
                         activeClass={ styles.navBtnActive }
                         to="projects"
                         spy={true}
@@ -96,7 +115,8 @@ const MyNav = () => {
 
                     {/* contact page */}
                     <Link 
-                        className={ styles.navBtn }
+                        // className={colorChange ? styles.navBtn2 : styles.navBtn }
+                        className = { styles.navBtn }
                         activeClass={ styles.navBtnActive }
                         to="contact"
                         spy={true}
@@ -106,6 +126,8 @@ const MyNav = () => {
                         Contact
                     </Link>
                 </Navbar.Collapse>
+
+                <SocialBtns/>
             </Container>
         </Navbar>
     );

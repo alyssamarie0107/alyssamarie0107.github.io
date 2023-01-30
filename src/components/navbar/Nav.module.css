@@ -2,6 +2,7 @@
 .customNavbar2 {
     width: 85vw;
     display: flex;
+    justify-content: center;
     margin: 30px auto;
     border-radius: 30px;
     padding: 30px;

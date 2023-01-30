@@ -1,7 +1,4 @@
-.Contact {
-    position: relative;
-    padding-bottom: 190px;
-}
+.Contact {position: relative;}
 
 #roboticHandSVG {
     right: 50px;
@@ -23,6 +20,7 @@
     color: var(--black);
     flex-direction: column;
     align-items: center;
+    z-index: 500;
 }
 
 #contactContainer > p {
@@ -30,7 +28,28 @@
     margin-bottom: 16px;
 }
 
-/* for large, medium, and small mobile devices */
-@media only screen and (max-width: 425px) {
+/* for tablet devices */
+@media only screen and (max-width: 768px) {
+    #roboticHandSVG {
+        width: 400px;
+        right: 0;
+    }
+
     #contactContainer {width: 85vw;}
+}
+
+/* for large and meduium mobile devices */
+@media only screen and (max-width: 425px) {
+    #roboticHandSVG {
+        width: 350px;
+        height: 200px;
+        bottom: 50px;
+    }
+}
+
+/* for small mobile devices */
+@media only screen and (max-width: 320px) {
+    #roboticHandSVG {
+        width: 300px;
+    }
 }

@@ -6,16 +6,27 @@
     word-spacing: -5px;
 }
 
-.panel {width: 80vw;}
+.panel {
+    width: 80vw;
+    display: flex;
+}
 
-#experienceContainer,
+.pillsCol {
+    width: 30%;
+    max-width: none;
+}
+
 .pillsContainer {
     display: flex;
     flex-direction: column;
 }
 
+.contentCol {width: 70%;}
+
+.tabContent {width: 100%}
+
 #experienceContainer ul {
-    width: 90%;
+    width: 100%;
     margin-top: 12px;
     padding: 5px 25px;
     border-radius: 10px;
@@ -23,6 +34,7 @@
     list-style: circle;
     background-color: var(--black);
 }
+
 #experienceContainerul > li > a {color: white;}
 
 #experienceContainer ul > li > a:hover {text-decoration: underline;}
@@ -35,4 +47,16 @@
 
 .date {font-size: 13px;}
 
-.panel {margin: 0;}
+@media only screen and (max-width: 805px) {
+    .panel {flex-direction: column;}
+
+    .pillsCol,
+    .contentCol {width: 100%}
+
+    .pillsContainer {margin-bottom: 15px;}
+}
+
+/* for large, medium, and small devices */
+@media only screen and (max-width: 425px) {
+    .panel {width: 95vw;}
+}

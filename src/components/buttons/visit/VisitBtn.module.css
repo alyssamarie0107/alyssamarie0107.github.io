@@ -4,6 +4,7 @@
     margin-right: 10px;
     border-radius: 20px;
     cursor: pointer;
+    text-align: center;
     /* offset-x | offset-y | blur-radius | spread-radius | color */
     box-shadow: -5px 5px 4px 0px rgba(0,0,0,0.5);
     background-color: var(--ashgray);

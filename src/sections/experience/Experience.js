@@ -1,6 +1,6 @@
 import styles from './Experience.module.css';
 import { motion } from 'framer-motion';
-import { Col, Nav, Row, Tab } from 'react-bootstrap';
+import { Nav, Row, Tab } from 'react-bootstrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBuilding } from '@fortawesome/free-solid-svg-icons'; 
 // import VisitBtn from '../../components/buttons/visit/VisitBtn';
@@ -23,7 +23,7 @@ const Experience = () => {
           <div id={ styles.experienceContainer }>
             <Tab.Container defaultActiveKey="first">
               <Row className={ styles.panel }>
-                <Col sm={3}>
+                <div className={ styles.pillsCol }>
                   <Nav variant="pills" className={ styles.pillsContainer }>
                     <Nav.Item>
                       <Nav.Link eventKey="first">theCoderSchool</Nav.Link>
@@ -41,9 +41,9 @@ const Experience = () => {
                       <Nav.Link eventKey="fifth">CliQ</Nav.Link>
                     </Nav.Item>
                   </Nav>
-                </Col>
-                <Col sm={9}>
-                  <Tab.Content>
+                </div>
+                <div className={ styles.contentCol }>
+                  <Tab.Content className={ styles.tabContent }>
                     <Tab.Pane eventKey="first">
                       <h5>Code Coach @ theCoderSchool</h5>
                       <p className={ styles.date }>August 2022 - Present</p>
@@ -94,7 +94,7 @@ const Experience = () => {
                       </ul>
                     </Tab.Pane>
                   </Tab.Content>
-                </Col>
+                </div>
               </Row>
             </Tab.Container>
           </div>

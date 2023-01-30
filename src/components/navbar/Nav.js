@@ -35,16 +35,6 @@ const MyNav = () => {
             variant="dark" 
             fixed="top">
             <Container>
-                {/* <Navbar.Brand href="/portfolio/">
-                    <Link
-                        className= {styles.navBrand}
-                        to="home" 
-                        spy={true} 
-                        smooth={true} 
-                        offset={-50} 
-                        duration={100}>AR</Link>
-                </Navbar.Brand> */}
-
                 <Navbar.Toggle aria-controls="responsive-navbar-nav"/>
 
                 <Navbar.Collapse className={ styles.navbarCollapse }>
@@ -126,7 +116,6 @@ const MyNav = () => {
                         Contact
                     </Link>
                 </Navbar.Collapse>
-
                 <SocialBtns/>
             </Container>
         </Navbar>

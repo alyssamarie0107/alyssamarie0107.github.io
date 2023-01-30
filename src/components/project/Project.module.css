@@ -45,6 +45,7 @@
 .techStack {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     list-style: none;
     padding: 0;
     font-size: 13px;
@@ -52,3 +53,53 @@
 }
 
 .techStack > li {margin-right: 8px;}
+
+/* for laptop devices */
+@media only screen and (max-width: 1024px) {
+    .projectDescription > p {
+        width: 55vw;
+    }
+}
+
+/* for tablet devices */
+@media only screen and (max-width: 768px) {
+    .projectDescription > p {width: 75vw;}
+
+    .projectImgContainer > .webImg {
+        width: 500px;
+        height: 380px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .projectImgContainer > .webImg {
+        width: 400px;
+        height: 300px;
+    }
+}
+
+/* for large mobile devices */
+@media only screen and (max-width: 475px) {
+    .projectDescription > p {width: 85vw;}
+
+    .projectImgContainer > .webImg {
+        width: 350px;
+        height: 240px;
+    }
+}
+
+/* for medium mobile devices */
+@media only screen and (max-width: 425px) {
+    .projectImgContainer > .webImg {
+        width: 300px;
+        height: 200px;
+    }
+}
+
+/* for small mobile devices */
+@media only screen and (max-width: 425px) {
+    .projectImgContainer > .otherImg {
+        width: 250px;
+        height: 200px;
+    }
+}

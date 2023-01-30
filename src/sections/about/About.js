@@ -16,13 +16,13 @@ const About = () => {
             id="about">
 
             <img
-                id={ styles.Sparks1SVG }
+                id={ styles.sparks1SVG }
                 src={ Sparks1SVG }
                 alt="Sparks1 SVG"
             />
 
             <img
-                id={ styles.Sparks2SVG }
+                id={ styles.sparks2SVG }
                 src={ Sparks2SVG }
                 alt="Sparks2 SVG"
             />

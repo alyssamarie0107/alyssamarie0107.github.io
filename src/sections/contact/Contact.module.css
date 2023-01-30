@@ -1,3 +1,14 @@
+.Contact {
+    position: relative;
+    padding-bottom: 190px;
+}
+
+#roboticHandSVG {
+    right: 50px;
+    bottom: 0px;
+    position: absolute;
+}
+
 #contactHeading {margin-bottom: 20px;}
 
 #contactHeading > p {

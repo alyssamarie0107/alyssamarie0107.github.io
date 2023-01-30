@@ -1,13 +1,13 @@
 /* skills section css */
 .Skills {position: relative;}
 
-#Wires1SVG {
+#wires1SVG {
     top: 450px;
     left: 0px;
     position: absolute;
 }
 
-#Wires2SVG {
+#wires2SVG {
     top: 450px;
     right: 0px;
     position: absolute;

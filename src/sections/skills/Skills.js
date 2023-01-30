@@ -18,9 +18,15 @@ const Skills = () => {
             id="skills">
 
             <img
-                id={ styles.Wires1SVG }
+                id={ styles.wires1SVG }
                 src={ Wires1SVG }
                 alt="Wires1 SVG"
+            />
+
+            <img
+                id={ styles.wires2SVG }
+                src={ Wires2SVG }
+                alt="Wires2 SVG"
             />
 
             <div id={ styles.skillsHeading }>
@@ -72,12 +78,6 @@ const Skills = () => {
                     </div>
                 </div>
             </div>
-
-            <img
-                id={ styles.Wires2SVG }
-                src={ Wires2SVG }
-                alt="Wires2 SVG"
-            />
         </motion.section>
     );
 }

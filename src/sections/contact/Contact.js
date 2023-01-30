@@ -3,6 +3,7 @@ import { motion } from 'framer-motion';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faMessage } from '@fortawesome/free-solid-svg-icons'; 
 import ContactBtn from '../../components/buttons/contact/contact-btn/ContactBtn';
+import RoboticHandSVG from '../../assets/svg/robotic-hand.svg';
 
 // contact section code
 const Contact = () => {
@@ -13,6 +14,12 @@ const Contact = () => {
             animate={{ opacity: 1 }} 
             exit={{ opacity: 0, transition: { duration: 0.3 } }}
             id="contact">
+
+                <img
+                    id={ styles.roboticHandSVG }
+                    src={ RoboticHandSVG }
+                    alt="Robotic Hand SVG"
+                />
                 
                 <div id={ styles.contactHeading }>
                     <p>What's Next?</p>

@@ -1,13 +1,13 @@
 /* about section css */
 .About {position: relative;}
 
-#Sparks1SVG {
+#sparks1SVG {
     top: 70px;
     left: 0;
     position: absolute;
 }
 
-#Sparks2SVG {
+#sparks2SVG {
     bottom: 20px;
     right: 25px;
     position: absolute;

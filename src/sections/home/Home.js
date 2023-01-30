@@ -26,7 +26,7 @@ const Home = () => {
                 </div>
                 
                 <img
-                    id={ styles.WorldWebSVG }
+                    id={ styles.worldWebSVG }
                     src={ WorldWebSVG }
                     alt="World Web SVG"
                 />

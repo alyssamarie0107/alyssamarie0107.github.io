@@ -2,7 +2,7 @@ import styles from './About.module.css';
 import { motion } from 'framer-motion';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faFemale } from '@fortawesome/free-solid-svg-icons'; 
-import SparksSVG from '../../assets/svg/sparks.svg';
+import Sparks1SVG from '../../assets/svg/sparks1.svg';
 import Sparks2SVG from '../../assets/svg/sparks2.svg';
 
 // about section code
@@ -16,9 +16,15 @@ const About = () => {
             id="about">
 
             <img
-                id={ styles.SparksSVG }
-                src={ SparksSVG }
-                alt="Sparks SVG"
+                id={ styles.Sparks1SVG }
+                src={ Sparks1SVG }
+                alt="Sparks1 SVG"
+            />
+
+            <img
+                id={ styles.Sparks2SVG }
+                src={ Sparks2SVG }
+                alt="Sparks2 SVG"
             />
 
             <div id={ styles.aboutHeading }>
@@ -33,12 +39,6 @@ const About = () => {
                     <p>I strive to write clean, scalable, and efficient code that outputs pixel perfect, interative, and responsive results to the web. I consider work as a developer an ongoing education, and I am continuously working to enhance my skillset and always looking for opportunities to work with those who are willing to share their knowledge as much as I want to learn. I am currently seeking an entry-level, full-time software engineering position at a company that is mission-driven, growing, and truly makes a positive impact or addresses an important problem, for I would be a valuable asset to any team.</p>
                 </div>
             </div>
-
-            <img
-                id={ styles.Sparks2SVG }
-                src={ Sparks2SVG }
-                alt="Sparks2 SVG"
-            />
         </motion.section>
     );
 }

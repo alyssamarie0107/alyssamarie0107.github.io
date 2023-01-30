@@ -4,6 +4,8 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faTools, faGears, faTerminal, faDatabase, faCloud } from '@fortawesome/free-solid-svg-icons';
 import { faBootstrap, faCss3, faFigma, faGit, faGithub, faHtml5, faJs, faNodeJs, faPhp, faPython, faReact, faSketch, faSwift } from '@fortawesome/free-brands-svg-icons';
 import Skill from '../../components/skill/Skill';
+import Wires1SVG from '../../assets/svg/wires1.svg';
+import Wires2SVG from '../../assets/svg/wires2.svg';
 
 // skills section code
 const Skills = () => {
@@ -14,6 +16,12 @@ const Skills = () => {
             animate={{ opacity: 1 }} 
             exit={{ opacity: 0, transition: { duration: 0.3 } }}
             id="skills">
+
+            <img
+                id={ styles.Wires1SVG }
+                src={ Wires1SVG }
+                alt="Wires1 SVG"
+            />
 
             <div id={ styles.skillsHeading }>
                 <p>What can I do?</p>
@@ -64,6 +72,12 @@ const Skills = () => {
                     </div>
                 </div>
             </div>
+
+            <img
+                id={ styles.Wires2SVG }
+                src={ Wires2SVG }
+                alt="Wires2 SVG"
+            />
         </motion.section>
     );
 }

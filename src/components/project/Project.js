@@ -5,6 +5,7 @@ const Project = (props) => {
         <div className={ styles.Project}>
             <div className={ styles.projectImgContainer }>
                 <img 
+                    className={ styles[props.imgStyling] }
                     src={ props.src } 
                     alt={ props.alt }
                 />

@@ -22,8 +22,12 @@
     font-family: var(--ibm-font);
 }
 
-/* for large mobile devices (425px) or medium mobile devices (375px) or smaller */
+/* for large, medium, and small mobile devices */
 @media only screen and (max-width: 425px) {
+    .TestimonyCard {margin: 0;}
+
+    .content {width: 280px;}
+
     .Testimonial > p {font-size: 16px;}
 
     .Testimonial > span {font-size: 11px;}

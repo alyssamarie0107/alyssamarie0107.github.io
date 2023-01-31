@@ -54,6 +54,9 @@
 
 /* if the browser window is 991px or smaller */
 @media only screen and (max-width: 991px) {
+    .customNavbar {
+        width: 90vw;
+    }
     .navbarCollapse {justify-content: center;}
 
     .navBtn {

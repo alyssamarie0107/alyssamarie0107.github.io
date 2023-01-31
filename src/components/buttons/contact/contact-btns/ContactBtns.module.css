@@ -1,5 +1,8 @@
 .ContactBtns {
     display: flex;
-    position: relative;
-    padding-top: 8px;
+    padding-top: 8px
+}
+
+@media only screen and (max-width: 320px) {
+ .ContactBtns {justify-content: center;}   
 }

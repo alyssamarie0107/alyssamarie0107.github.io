@@ -54,7 +54,7 @@
     margin-top: 20px;
 }
 
-/* for large mobile devices (425px) or medium mobile devices (375px) or smaller */
+/* for large, medium, and small moblile devices */
 @media only screen and (max-width: 425px) {
     #frontendSkills,
     #backendSkills {flex-direction: column;}

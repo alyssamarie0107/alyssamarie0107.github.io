@@ -84,25 +84,25 @@ section {
     border: 1px solid var(--black);
 }
 
-/* if browser window is tablet device (650px or smaller) or smaller*/
-@media only screen and (max-width: 650px) {
+/* for tablet device or smaller */
+@media only screen and (max-width: 768px) {
     h1 {font-size: 44px;}
-    h2 {font-size: 38px;}
+    h2 {font-size: 40px;}
     h3 {font-size: 36px;}
 
     section {padding-bottom: 30px;}
 }
 
-/* if browser window is large mobile device(425px) or smaller */
+/* for large mobile device */
 @media only screen and (max-width: 425px) {
-    h1 {font-size: 35px;}
-    h2 {font-size: 32px;}
-    h3 {font-size: 36px;}
+    h1 {font-size: 33px;}
+    h2 {font-size: 31px;}
+    h3 {font-size: 29px;}
 }
 
-/* if browser window is small mobile device (320px or smaller) or smaller*/
-@media only screen and (max-width: 320px) {
-    h1 {font-size: 28px;}
-    h2 {font-size: 26px;}
-    h3 {font-size: 22px;}
+/* for medium mobile device */
+@media only screen and (max-width: 375px) {
+    h1 {font-size: 24px;}
+    h2 {font-size: 22px;}
+    h3 {font-size: 20px;}
 }

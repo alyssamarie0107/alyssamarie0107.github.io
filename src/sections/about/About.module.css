@@ -3,7 +3,7 @@
 
 #sparks1SVG {
     top: 70px;
-    left: 0;
+    left: 0px;
     position: absolute;
 }
 
@@ -30,4 +30,75 @@
     box-shadow: -20px 10px var(--ashgray);
 }
 
-#about span {background-color: red;}
+/* for tablet devices */
+@media only screen and (max-width: 768px) {
+    #sparks1SVG {
+        top: 100px;
+        width: 200px;
+        height: 200px;
+    }
+
+    #sparks2SVG {
+        bottom: 0px;
+        width: 190px;
+        height: 190px;
+    }
+
+    #about {width: 75vw;}
+  }
+
+/* for large mobile devices */
+@media only screen and (max-width: 425px) {
+    #sparks1SVG {
+        top: 20px;
+        left: 15px;
+        width: 90px;
+        height: 90px;
+    }
+
+    #sparks2SVG {
+        top: 20px;
+        right: 15px;
+        width: 90px;
+        height: 90px;
+    }
+
+    #about {
+        width: 80vw;
+        box-shadow: 15px -10px var(--ashgray);
+    }
+  }
+
+/* for medium mobile devices */
+@media only screen and (max-width: 375px) {
+    #sparks1SVG {
+        top: 10px;
+        left: 35px;
+        width: 70px;
+        height: 70px;
+    }
+
+    #sparks2SVG {
+        top: 10px;
+        right: 35px;
+        width: 70px;
+        height: 70px;
+    }
+
+    #about {
+        width: 85vw;
+        box-shadow: 10px -10px var(--ashgray);
+    }
+  }
+
+/* for small mobile devices */
+@media only screen and (max-width: 320px) {
+    #sparks1SVG {left: 20px;}
+
+    #sparks2SVG {right: 20px;}
+
+    #about {
+        width: 90vw;
+        box-shadow: none;
+    }
+  }

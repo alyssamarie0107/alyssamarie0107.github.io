@@ -31,7 +31,7 @@
 }
 
 /* for tablet devices */
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1140px) {
     #sparks1SVG {
         top: 100px;
         width: 200px;

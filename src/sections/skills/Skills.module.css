@@ -2,13 +2,13 @@
 .Skills {position: relative;}
 
 #wires1SVG {
-    top: 450px;
+    bottom: 450px;
     left: 0px;
     position: absolute;
 }
 
 #wires2SVG {
-    top: 450px;
+    bottom: 450px;
     right: 0px;
     position: absolute;
 }
@@ -54,10 +54,23 @@
     margin-top: 20px;
 }
 
+/* for tablet devices  */
+@media only screen and (max-width: 768px) {
+    #wires1SVG,
+    #wires2SVG {
+        bottom: 0px;
+        width: 220px;
+        height: 120px;
+    }
+}
+
 /* for large, medium, and small moblile devices */
 @media only screen and (max-width: 425px) {
     #frontendSkills,
     #backendSkills {flex-direction: column;}
 
     .skills {width: 95vw;}
+
+    #wires1SVG,
+    #wires2SVG {display: none;}
 }

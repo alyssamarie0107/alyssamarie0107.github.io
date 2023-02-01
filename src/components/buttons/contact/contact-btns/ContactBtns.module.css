@@ -3,6 +3,7 @@
     padding-top: 8px
 }
 
-@media only screen and (max-width: 320px) {
+/* for large, medium, small devices */
+@media only screen and (max-width: 425px) {
  .ContactBtns {justify-content: center;}   
 }

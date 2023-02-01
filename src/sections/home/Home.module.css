@@ -46,14 +46,24 @@
   }
 }
 
-/* for large mobile devices */
+/* for large and medium mobile devices */
 @media only screen and (max-width: 425px) {
   #worldWebSVG {
-    width: 320px;
-    height: 320px;
+    width: 310px;
+    height: 300px;
+    bottom: -25px;
     left: 0; 
     right: 0; 
     margin-left: auto; 
     margin-right: auto; 
+  }
+}
+
+/* for small mobile devices */
+@media only screen and (max-width: 320px) {
+  #worldWebSVG {
+    width: 300px;
+    height: 280px;
+    bottom: -20px;
   }
 }

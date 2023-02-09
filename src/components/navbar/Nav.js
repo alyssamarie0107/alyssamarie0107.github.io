@@ -5,31 +5,19 @@ import { Link } from 'react-scroll';
 import SocialBtns from '../buttons/social/SocialBtns';
 
 /* 
+ * navbar component
  * if you want react to handle the routing only in the browswer 
  * and to intercept those requests for new pages, replace anchor 
  * tags with Link instead. Note, Link does not use href attribute,
  * but rather uses 'to'.
  * 
- * Instead of Link from bootstrap, using Link from react-scroll
+ * instead of Link from bootstrap, using Link from react-scroll
  * https://www.npmjs.com/package/react-scroll
 */ 
 const MyNav = () => {
-    // const [colorChange, setColorchange] = useState(false);
-
-    // const changeNavbarColor = () =>{
-    //     if(window.scrollY >= 720){
-    //       setColorchange(true);
-    //     }
-    //     else{
-    //       setColorchange(false);
-    //     }
-    //  };
-
-    //  window.addEventListener('scroll', changeNavbarColor);
     return (
         // fixed navbar
         <Navbar
-            // className={colorChange ? styles.customNavbar2 : styles.customNavbar }
             className = { styles.customNavbar  }
             expand="lg" 
             variant="dark" 
@@ -40,8 +28,7 @@ const MyNav = () => {
                 <Navbar.Collapse className={ styles.navbarCollapse }>
                     {/* home page */}
                     <Link
-                        // className={colorChange ? styles.navBtn2 : styles.navBtn }
-                        className = { styles.navBtn   }
+                        className = { styles.navBtn }
                         activeClass={ styles.navBtnActive }
                         to="home" 
                         spy={true} 
@@ -53,7 +40,6 @@ const MyNav = () => {
 
                     {/* about page */}
                     <Link
-                        // className={colorChange ? styles.navBtn2 : styles.navBtn }
                         className = { styles.navBtn }
                         activeClass={ styles.navBtnActive }
                         to="about"
@@ -66,7 +52,6 @@ const MyNav = () => {
 
                     {/* skills page */}
                     <Link
-                        // className={colorChange ? styles.navBtn2 : styles.navBtn }
                         className = { styles.navBtn }
                         activeClass={ styles.navBtnActive }
                         to="skills"
@@ -79,7 +64,6 @@ const MyNav = () => {
 
                     {/* experience page */}
                     <Link 
-                        // className={colorChange ? styles.navBtn2 : styles.navBtn }
                         className = { styles.navBtn }
                         activeClass={ styles.navBtnActive }
                         to="experience"
@@ -92,7 +76,6 @@ const MyNav = () => {
 
                     {/* projects page */}
                     <Link 
-                        // className={colorChange ? styles.navBtn2 : styles.navBtn }
                         className = { styles.navBtn   }
                         activeClass={ styles.navBtnActive }
                         to="projects"
@@ -105,7 +88,6 @@ const MyNav = () => {
 
                     {/* contact page */}
                     <Link 
-                        // className={colorChange ? styles.navBtn2 : styles.navBtn }
                         className = { styles.navBtn }
                         activeClass={ styles.navBtnActive }
                         to="contact"

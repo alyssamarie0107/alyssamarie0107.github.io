@@ -79,6 +79,7 @@ section {
     color: var(--black);
     margin: 5px;
     border-radius: 10px;
+    padding: 6px 12px;
     background-color: var(--cream);
     transition: all 0.3s ease 0s;
 }

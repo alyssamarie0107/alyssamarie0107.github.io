@@ -3,9 +3,8 @@ import { motion } from 'framer-motion';
 import { Nav, Row, Tab } from 'react-bootstrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBuilding } from '@fortawesome/free-solid-svg-icons'; 
-// import VisitBtn from '../../components/buttons/visit/VisitBtn';
 
-// experience section code
+// experience section
 const Experience = () => {
     return (
       <motion.section
@@ -71,9 +70,7 @@ const Experience = () => {
                         <li>Partnered with UI/UX designer to establish rich interfaces and seamless experiences using Figma.</li>
                         <li>Participated in numerous weekly meetings to share progress and to ensure deadlines were on track to be fulfilled on time.</li>
                         <li>Developed and deployed official website using frontend technologies, which resulted in new clients and 100% client return.</li>
-                        {/* <div className={ styles.visitBtnsContainer }>
-                          <VisitBtn href="https://gameovaofficial.com/">View Website</VisitBtn>
-                        </div> */}
+                        <li>View Website: <a target="_blank" rel="noreferrer" href='https://gameovaofficial.com/' id={ styles.gameovaWebLink }>https://gameovaofficial.com/</a></li>
                       </ul>
                     </Tab.Pane>
                     <Tab.Pane eventKey="fourth">

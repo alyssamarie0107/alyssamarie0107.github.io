@@ -3,6 +3,8 @@ import { motion } from 'framer-motion';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLinkedin, faGithub, faInstagram } from '@fortawesome/free-brands-svg-icons';
 
+// social btn component
+// for linkedin, github, and instagram
 const SocialBtn = (props) => {
     return (
         <motion.a 
@@ -15,6 +17,8 @@ const SocialBtn = (props) => {
     );
 }
 
+// social btns component
+// displayed in navbar 
 const SocialBtns = () => {
     return (
         <div className={ styles.SocialBtns }>

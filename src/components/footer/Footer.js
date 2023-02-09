@@ -7,6 +7,7 @@ const getCurrentYear = () => {
     return `©${ current_year } Alyssa Rodriguez`;
 }
 
+// footer component
 const Footer = () => {
     return (
         <footer className={ styles.Footer }>

@@ -5,7 +5,7 @@ import { faLaptopCode } from '@fortawesome/free-solid-svg-icons';
 import WorldWebSVG from '../../assets/svg/worldWeb.svg';
 import ContactBtns from '../../components/buttons/contact/contact-btns/ContactBtns';
 
-// home section code
+// home section
 const Home = () => {
     return (
         <motion.section 

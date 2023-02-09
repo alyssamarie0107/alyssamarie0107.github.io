@@ -1,3 +1,4 @@
+/* project component css */
 .Project {
     display: flex;
     flex-direction: column;
@@ -9,6 +10,7 @@
 .projectImgContainer > .mobileImg,
 .projectImgContainer > .otherImg {border-radius: 12px;}
 
+/* web, mobile, and other project imgs contain diff. widths and heights */
 .projectImgContainer > .webImg {
     width: 600px;
     height: 410px;

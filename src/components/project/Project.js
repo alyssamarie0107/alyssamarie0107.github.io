@@ -1,5 +1,8 @@
 import styles from './Project.module.css';
 
+// project component
+// includes img, title, description, tech stack, and visit btns
+// used in projects section
 const Project = (props) => {
     return (
         <div className={ styles.Project}>

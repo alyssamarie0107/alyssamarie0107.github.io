@@ -2,7 +2,7 @@ import styles from './Testimony.module.css';
 import { motion } from 'framer-motion';
 import TestimonyCard from '../../components/testimony-card/TestimonyCard';
 
-// testimony section code
+// testimony section
 const Testimony = () => {
     return (
         <motion.section            

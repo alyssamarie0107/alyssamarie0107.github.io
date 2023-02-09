@@ -1,6 +1,8 @@
 import styles from './ContactBtns.module.css';
 import ContactBtn from '../contact-btn/ContactBtn';
 
+// contact btns component
+// displayed in home section and contact section
 const ContactBtns = () => {
     return (
         <div className={ styles.ContactBtns }>

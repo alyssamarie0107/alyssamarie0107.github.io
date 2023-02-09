@@ -7,7 +7,7 @@ import Skill from '../../components/skill/Skill';
 import Wires1SVG from '../../assets/svg/wires1.svg';
 import Wires2SVG from '../../assets/svg/wires2.svg';
 
-// skills section code
+// skills section
 const Skills = () => {
     return (
         <motion.section
@@ -43,23 +43,23 @@ const Skills = () => {
                         <div id={ styles.frontendSkills }>
                             <h6>Frontend:</h6>
                             <div className= { styles.skills }>
-                                <Skill icon= { faHtml5 } language="HTML5"/>
-                                <Skill icon= { faCss3 } language="CSS3"/>
-                                <Skill icon= { faJs } language="JavaScript"/>
-                                <Skill icon= { faBootstrap } language="Bootstrap"/>
-                                <Skill icon= { faReact } language="React.js"/>
-                                <Skill icon= { faSwift } language="Swift"/>
+                                <Skill icon= { faHtml5 } skillName="HTML5"/>
+                                <Skill icon= { faCss3 } skillName="CSS3"/>
+                                <Skill icon= { faJs } skillName="JavaScript"/>
+                                <Skill icon= { faBootstrap } skillName="Bootstrap"/>
+                                <Skill icon= { faReact } skillName="React.js"/>
+                                <Skill icon= { faSwift } skillName="Swift"/>
                             </div>
                         </div>
 
                         <div id={ styles.backendSkills }>
                             <h6>Backend:</h6>
                             <div className={ styles.skills }>
-                                <Skill icon= { faPython } language="Python"/>
-                                <Skill icon= { faPhp } language="PHP" level="basic"/>
-                                <Skill icon= { faNodeJs } language="Node.js"/>
-                                <Skill icon= { faDatabase } language="SQL"/>
-                                <Skill icon= { faCloud } language="RESTful API"/>
+                                <Skill icon= { faPython } skillName="Python"/>
+                                <Skill icon= { faPhp } skillName="PHP" level="basic"/>
+                                <Skill icon= { faNodeJs } skillName="Node.js"/>
+                                <Skill icon= { faDatabase } skillName="SQL"/>
+                                <Skill icon= { faCloud } skillName="RESTful API"/>
                             </div>
                         </div>
                     </div>
@@ -70,11 +70,11 @@ const Skills = () => {
                     <h5>Tools <FontAwesomeIcon icon={ faTools }/></h5>
 
                     <div className={ styles.skills }>
-                        <Skill icon= { faGit } language="Git"/>
-                        <Skill icon= { faGithub } language="Github"/>
-                        <Skill icon= { faDatabase } language="Firebase"/>
-                        <Skill icon= { faFigma } language="Figma"/>
-                        <Skill icon= { faSketch } language="Sketch"/>
+                        <Skill icon= { faGit } skillName="Git"/>
+                        <Skill icon= { faGithub } skillName="Github"/>
+                        <Skill icon= { faDatabase } skillName="Firebase"/>
+                        <Skill icon= { faFigma } skillName="Figma"/>
+                        <Skill icon= { faSketch } skillName="Sketch"/>
                     </div>
                 </div>
             </div>

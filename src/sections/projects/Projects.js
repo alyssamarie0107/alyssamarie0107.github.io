@@ -28,7 +28,7 @@ const Projects = () => {
 
             <div id={ styles.projectsHeading }>
                 <p>What have I built?</p>
-                <h3>Projects <FontAwesomeIcon icon={ faCode }/></h3>
+                <h3>Projects <FontAwesomeIcon icon={ faCode } id={ styles.faCode }/></h3>
             </div>
 
             <Tabs className={ styles.TabsContainer } defaultActiveKey="web">

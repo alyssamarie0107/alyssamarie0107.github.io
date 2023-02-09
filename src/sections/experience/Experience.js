@@ -17,7 +17,7 @@ const Experience = () => {
           
           <div id={ styles.experienceHeading }>
             <p>Where have I worked?</p>
-            <h3>Experience <FontAwesomeIcon icon={ faBuilding }/></h3>
+            <h3>Experience <FontAwesomeIcon icon={ faBuilding } id={ styles.faBuilding }/></h3>
           </div>
           
           <div id={ styles.experienceContainer }>

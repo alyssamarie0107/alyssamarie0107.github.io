@@ -17,9 +17,9 @@
 /* end scrollbar css */
 
 /* global css */
-h1 {font-size: 72px;}
+h1 {font-size: 68px;}
 
-h2 {font-size: 68px;}
+h2 {font-size: 64px;}
 
 h3 {
     font-size: 45px;
@@ -70,7 +70,7 @@ section {
 /* specifically for experience tabs */
 .nav-pills .nav-link {color: var(--white);}
 
-.nav-pills .nav-link:hover {color: var(--black);}
+.nav-pills .nav-link:hover {color: var(--lightblue);}
 
 .nav-pills .nav-link.active:hover {color: var(--white);}
 

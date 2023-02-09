@@ -23,7 +23,7 @@ const Contact = () => {
                 
                 <div id={ styles.contactHeading }>
                     <p>What's Next?</p>
-                    <h3>Get in Touch <FontAwesomeIcon icon={ faMessage }/></h3>
+                    <h3>Get in Touch <FontAwesomeIcon icon={ faMessage } id={ styles.faMessage }/></h3>
                 </div>
 
                 <div id={ styles.contactContainer }>

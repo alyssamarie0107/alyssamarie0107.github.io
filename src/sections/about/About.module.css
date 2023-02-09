@@ -6,8 +6,6 @@ strong {
 
 .About {position: relative;}
 
-#faFemale {filter:drop-shadow(0px 12px 8px rgba(0, 0, 0, 0.5));}
-
 #sparks1SVG {
     top: 70px;
     left: 0px;
@@ -27,6 +25,8 @@ strong {
     font-family: var(--ibm-font);
     word-spacing: -5px;
 }
+
+#faFemale {filter:drop-shadow(0px 12px 8px rgba(0, 0, 0, 0.5));}
 
 #about {
     width: 50vw;

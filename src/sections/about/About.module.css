@@ -1,5 +1,12 @@
 /* about section css */
+strong {
+    color: var(--lightblue);
+    text-shadow: 0px 3px 5px rgba(0, 0, 0, 0.5);
+}
+
 .About {position: relative;}
+
+#faFemale {filter:drop-shadow(0px 12px 8px rgba(0, 0, 0, 0.5));}
 
 #sparks1SVG {
     top: 70px;
@@ -26,8 +33,8 @@
     padding: 20px;
     border-radius: 15px;
     color: var(--black);
-    border: 1px solid var(--ashgray);
-    box-shadow: -20px 10px var(--ashgray);
+    border: 1px solid var(--cream);
+    box-shadow: -20px 10px var(--cream);
 }
 
 /* for tablet devices */

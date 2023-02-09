@@ -1,5 +1,5 @@
 .VisitBtn {
-    color: var(--black);
+    color: var(--white);
     padding: 8px 20px;
     margin-right: 10px;
     border-radius: 20px;
@@ -7,12 +7,12 @@
     text-align: center;
     /* offset-x | offset-y | blur-radius | spread-radius | color */
     box-shadow: -5px 5px 4px 0px rgba(0,0,0,0.5);
-    background-color: var(--ashgray);
+    background-color: var(--lightblue);
     transition: all 0.3s ease 0s;
 }
 
 .VisitBtn:hover {
-    color: var(--white);
-    background-color: var(--black);
+    color: var(--black);
+    background-color: var(--cream);
     transform: translateY(-3px);
 }

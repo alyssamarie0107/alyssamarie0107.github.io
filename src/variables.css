@@ -8,8 +8,9 @@
     --ibm-font:'IBM Plex Mono', monospace;
     
     /* color palette */
-    --black: #0D1321;
-    --seagreen: #678983;
-    --ashgray: #CAD2C5;
+    --black: #000000cf;
+    --darkgray: #232b2e;
+    --cream: #D0C9C0;
     --white: #ffffff;
+    --lightblue: #698082;
   }  

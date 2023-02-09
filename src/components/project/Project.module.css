@@ -34,12 +34,13 @@
 
 .projectDescription > h5 {
     width: auto;
-    border-bottom: 3.5px solid var(--ashgray);
+    color: var(--lightblue);
+    border-bottom: 3.5px solid var(--cream);
 }
 
 .projectDescription > p {
     width: 40vw;
-    color: var(--black);
+    color: var(--white);
 }
 
 .techStack {

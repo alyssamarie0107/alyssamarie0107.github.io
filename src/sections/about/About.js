@@ -29,7 +29,7 @@ const About = () => {
 
             <div id={ styles.aboutHeading }>
                 <p>Who am I?</p>
-                <h3>About Me <FontAwesomeIcon icon={ faFemale }/></h3>
+                <h3>About Me <FontAwesomeIcon icon={ faFemale } id={styles.faFemale } /></h3>
             </div>
 
             <div id={ styles.aboutContainer }>

@@ -8,7 +8,6 @@ const Skill = (props) => {
             <div className={ styles.skillContainer }>
                 <motion.div whileHover={{ scale: 1.1 }}><FontAwesomeIcon icon={ props.icon } size="2x" className="fa-fw"/></motion.div>
                 <span>{ props.language }</span>
-                <span className={ styles.level }>{ props.level }</span>
             </div>
         </div>
     );

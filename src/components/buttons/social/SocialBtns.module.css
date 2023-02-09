@@ -3,4 +3,6 @@
     margin-right: 8px;
 }
 
+.SocialBtn:hover {color: var(--lightblue);}
+
 .SocialBtns {display: flex;}

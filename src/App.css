@@ -23,15 +23,18 @@ h2 {font-size: 68px;}
 
 h3 {
     font-size: 45px;
-    color: var(--black);
-    text-shadow: 0 7px 8px rgb(2 11 22 / 50%);
+    color: var(--lightblue);
+    text-shadow: 0px 12px 8px rgba(0, 0, 0, 0.5);
 }
 
 h1, h2, h3, h4, h5, h6 {font-family: var(--header-font);}
 
 a {text-decoration: none;}
 
-p {margin-bottom: 8px;}
+p {
+    color: var(--white);
+    margin-bottom: 8px;
+}
 
 body {
     min-height: 100vh;
@@ -46,7 +49,7 @@ section {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    background-color: var(--seagreen);
+    background-color: var(--darkgray);
 }
 
 /* for both experience and projects page - tabs  */
@@ -55,7 +58,7 @@ section {
 .nav-tabs .nav-link.active:hover {
     color: var(--white);
     border: 1px solid transparent;
-    background-color: var(--black);
+    background-color: var(--lightblue);
 }
 
 .tab-content {
@@ -76,13 +79,12 @@ section {
     color: var(--black);
     margin: 5px;
     border-radius: 10px;
-    background-color: var(--ashgray);
+    background-color: var(--cream);
     transition: all 0.3s ease 0s;
 }
 
-.nav-tabs .nav-link:hover {
-    border: 1px solid var(--black);
-}
+/* for font awesome skill icons */
+.fa-fw {color: var(--white);}
 
 /* for tablet device or smaller */
 @media only screen and (max-width: 768px) {

@@ -16,7 +16,7 @@ const Home = () => {
             id="home">
                 <div id={ styles.homeContainer }>
                     <h1>I'm Alyssa Rodriguez.</h1>
-                    <h2>Software Engineer <FontAwesomeIcon icon={ faLaptopCode } className={ styles.faLaptop }/></h2>
+                    <h2>Software Engineer <FontAwesomeIcon icon={ faLaptopCode } id={ styles.faLaptop }/></h2>
                     
                     <p>based in San Francisco, CA who is experienced in building frontend web applications that functions efficiently and provides exceptional digital experiences. I am passionate about all things technology and love tackling complex problems that make a positive impact on everyday lives.</p>
 

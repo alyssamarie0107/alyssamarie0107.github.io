@@ -1,5 +1,4 @@
-.customNavbar,
-.customNavbar2 {
+.customNavbar {
     width: 85vw;
     display: flex;
     justify-content: center;
@@ -11,45 +10,28 @@
     transition: all 1s ease;
 }
 
-.customNavbar {background-color: var(--ashgray);}
-
-/* this styling is applied when user scrolls to a certain point in browswer */
-.customNavbar2 {
-    background-color:#667db8;
-}
+.customNavbar {background-color: var(--cream);}
 
 .navbarCollapse {
     display: flex;
     flex-wrap: wrap;
 }
 
-.navBtn,
-.navBtn2 {
-    margin-right: 15px;
+.navBtn {
+    margin-right: 12px;
     font-weight: 300;
     font-size: 16px;
+    color: var(--black);
     cursor: pointer;
 }
 
-.navBtn {color: var(--black);}
-
-.navBtn:hover {
-    color: var(--black);
-    border-bottom: 2px solid var(--black);
-}
-
-/* this styling is applied for when customNavbar2 is active */
-.navBtn2 {color: var(--black);}
-
-.navBtn2:hover {
-    color: var(--white);
-    border-bottom: 2px solid var(--ashgray);
-}
+.navBtn:hover {color: var(--lightblue);}
 
 .navBtnActive,
 .navBtnActive:hover {
+    color: var(--black);
     font-weight: 700;
-    border-bottom: 2px solid var(--seagreen);
+    border-bottom: 2px solid var(--lightblue);
 }
 
 /* if the browser window is 991px or smaller */

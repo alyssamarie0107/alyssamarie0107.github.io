@@ -21,8 +21,13 @@
     word-spacing: -5px;
 }
 
+#faTerminal {filter:drop-shadow(0px 12px 8px rgba(0, 0, 0, 0.5));}
+
 #developmentContainer > h5, 
-#toolsContainer > h5{text-align: center;}
+#toolsContainer > h5 {
+    color: var(--cream);
+    text-align: center;
+}
 
 #developmentSkills {
     display: flex;
@@ -39,7 +44,7 @@
 #frontendSkills > h6,
 #backendSkills > h6 {
     margin: 0;
-    color: var(--black);
+    color: var(--cream);
 }
 
 .skills {

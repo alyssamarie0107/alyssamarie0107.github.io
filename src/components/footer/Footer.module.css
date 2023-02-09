@@ -1,8 +1,7 @@
 .Footer {
     display: flex;
     padding: 0 30px;
-    color: var(--black);
-    background-color: var(--seagreen);
+    background-color: var(--darkgray);
 }
 
 .Footer > span {

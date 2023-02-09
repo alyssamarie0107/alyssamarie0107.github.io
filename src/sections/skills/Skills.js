@@ -41,7 +41,7 @@ const Skills = () => {
 
                     <div id={ styles.developmentSkills }>
                         <div id={ styles.frontendSkills }>
-                            <h6>Frontend:</h6>
+                            <h6>Frontend</h6>
                             <div className= { styles.skills }>
                                 <Skill icon= { faHtml5 } skillName="HTML5"/>
                                 <Skill icon= { faCss3 } skillName="CSS3"/>
@@ -53,7 +53,7 @@ const Skills = () => {
                         </div>
 
                         <div id={ styles.backendSkills }>
-                            <h6>Backend:</h6>
+                            <h6>Backend</h6>
                             <div className={ styles.skills }>
                                 <Skill icon= { faPython } skillName="Python"/>
                                 <Skill icon= { faPhp } skillName="PHP" level="basic"/>

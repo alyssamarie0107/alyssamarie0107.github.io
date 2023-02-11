@@ -41,6 +41,7 @@ body {
     color: white;
     font-size: 14px;
     font-family: var(--body-font);
+    background-color: var(--darkgray);
 }
 
 section {
@@ -49,7 +50,6 @@ section {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    background-color: var(--darkgray);
 }
 
 /* for both experience and projects page - tabs  */

@@ -6,10 +6,7 @@ import TestimonyCard from '../../components/testimony-card/TestimonyCard';
 const Testimony = () => {
     return (
         <motion.section            
-        className={ styles.Testimony } 
-        initial={{ opacity: 0 }} 
-        animate={{ opacity: 1 }} 
-        exit={{ opacity: 0, transition: { duration: 0.3 } }}
+        className={ styles.Testimony }
         id="testimony">
             <div id={ styles.testimonyContainer }>
                 <TestimonyCard 

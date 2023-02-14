@@ -9,10 +9,7 @@ import Sparks2SVG from '../../assets/svg/sparks2.svg';
 const About = () => {
     return (
         <motion.section
-            className={ styles.About } 
-            initial={{ opacity: 0 }} 
-            animate={{ opacity: 1 }} 
-            exit={{ opacity: 0, transition: { duration: 0.3 } }}
+            className={ styles.About }
             id="about">
 
             <img

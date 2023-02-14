@@ -11,10 +11,7 @@ import Wires2SVG from '../../assets/svg/wires2.svg';
 const Skills = () => {
     return (
         <motion.section
-            className={ styles.Skills } 
-            initial={{ opacity: 0 }} 
-            animate={{ opacity: 1 }} 
-            exit={{ opacity: 0, transition: { duration: 0.3 } }}
+            className={ styles.Skills }
             id="skills">
 
             <img

@@ -10,9 +10,6 @@ const Contact = () => {
     return (
         <motion.section
             className={ styles.Contact } 
-            initial={{ opacity: 0 }} 
-            animate={{ opacity: 1 }} 
-            exit={{ opacity: 0, transition: { duration: 0.3 } }}
             id="contact">
 
                 <img

@@ -8,10 +8,7 @@ import { faBuilding } from '@fortawesome/free-solid-svg-icons';
 const Experience = () => {
     return (
       <motion.section
-        className={ styles.Experience } 
-        initial={{ opacity: 0 }} 
-        animate={{ opacity: 1 }} 
-        exit={{ opacity: 0, transition: { duration: 0.3 } }}
+        className={ styles.Experience }
         id="experience">
           
           <div id={ styles.experienceHeading }>

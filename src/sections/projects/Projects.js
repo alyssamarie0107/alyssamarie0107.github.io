@@ -21,9 +21,6 @@ const Projects = () => {
     return (
         <motion.section
             className={ styles.Projects } 
-            initial={{ opacity: 0 }} 
-            animate={{ opacity: 1 }} 
-            exit={{ opacity: 0, transition: { duration: 0.3 } }}
             id="projects">
 
             <div id={ styles.projectsHeading }>

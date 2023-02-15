@@ -5,12 +5,26 @@ import { faFemale } from '@fortawesome/free-solid-svg-icons';
 import Sparks1SVG from '../../assets/svg/sparks1.svg';
 import Sparks2SVG from '../../assets/svg/sparks2.svg';
 
+const aboutVariants = {
+    hidden: {
+        opacity: 0
+    },
+    visible: {
+        opacity: 1,
+        transition: { duration: 1 }
+    }
+}
+
 // about section
 const About = () => {
     return (
         <motion.section
             className={ styles.About }
-            id="about">
+            id="about"
+            variants={ aboutVariants }
+            initial="hidden"
+            whileInView="visible"
+            viewport={{ once: true, amount: 0.7 }}>
 
             <img
                 id={ styles.sparks1SVG }

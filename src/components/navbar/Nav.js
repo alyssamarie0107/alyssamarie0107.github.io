@@ -32,7 +32,7 @@ const MyNav = () => {
                         to="home" 
                         spy={true} 
                         smooth={true} 
-                        offset={-50} 
+                        offset={-200} 
                         duration={100}>
                         Home
                     </Link>
@@ -44,7 +44,7 @@ const MyNav = () => {
                         to="about"
                         spy={true}
                         smooth={true}
-                        offset={0}
+                        offset={-50}
                         duration={100}>
                         About
                     </Link>
@@ -80,7 +80,7 @@ const MyNav = () => {
                         to="projects"
                         spy={true}
                         smooth={true}
-                        offset={0}
+                        offset={-150}
                         duration={100}>
                         Projects
                     </Link>
@@ -92,7 +92,7 @@ const MyNav = () => {
                         to="contact"
                         spy={true}
                         smooth={true}
-                        offset={0}
+                        offset={50}
                         duration={100}>
                         Contact
                     </Link>

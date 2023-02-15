@@ -5,6 +5,7 @@ import { faFemale } from '@fortawesome/free-solid-svg-icons';
 import Sparks1SVG from '../../assets/svg/sparks1.svg';
 import Sparks2SVG from '../../assets/svg/sparks2.svg';
 
+// animation variants
 const aboutVariants = {
     hidden: {
         opacity: 0

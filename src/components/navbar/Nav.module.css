@@ -13,13 +13,6 @@
 
 .customNavbar {background-color: var(--cream);}
 
-#navbarContainer {
-    width: 100%;
-    display: flex;
-
-    background-color: red;
-}
-
 .navbarCollapse {
     display: flex;
     flex-wrap: wrap;

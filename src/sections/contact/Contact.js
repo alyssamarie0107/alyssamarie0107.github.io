@@ -5,17 +5,32 @@ import { faMessage } from '@fortawesome/free-solid-svg-icons';
 import ContactBtn from '../../components/buttons/contact/contact-btn/ContactBtn';
 import RoboticHandSVG from '../../assets/svg/robotic-hand.svg';
 
+// animation varirants
+const roboticHandVariants = {
+    hidden: {
+        y: -100
+    },
+    visible: {
+        y: 0,
+        transition: {
+            duration: 2
+        }
+    }
+}
+
 // contact section code
 const Contact = () => {
     return (
-        <motion.section
+        <section
             className={ styles.Contact } 
             id="contact">
-
-                <img
+                <motion.img
                     id={ styles.roboticHandSVG }
                     src={ RoboticHandSVG }
                     alt="Robotic Hand SVG"
+                    variants={ roboticHandVariants }
+                    initial="hidden"
+                    whileInView="visible"
                 />
                 
                 <div id={ styles.contactHeading }>
@@ -30,7 +45,7 @@ const Contact = () => {
                         Get in touch
                     </ContactBtn>
                 </div>
-        </motion.section>
+        </section>
     );
 }
  

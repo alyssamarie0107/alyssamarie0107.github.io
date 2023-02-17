@@ -1,4 +1,6 @@
 /* experience section css */
+.Experience {min-height: 70vh;}
+
 #experienceHeading {margin-bottom: 30px;}
 
 #experienceHeading > p {

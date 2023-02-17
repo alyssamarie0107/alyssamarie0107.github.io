@@ -1,6 +1,5 @@
 import './App.css';
 import './variables.css';
-
 import MyNav from './components/navbar/Nav';
 import Home from './sections/home/Home';
 import About from './sections/about/About';

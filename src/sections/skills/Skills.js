@@ -18,6 +18,22 @@ const skillsVariants = {
     }
 }
 
+// parent 
+const skillsParentVariant = {
+    hidden: {
+        opacity: 0
+    },
+    visible: {
+        opacity: 1,
+        transition: { 
+            delay: 1.5,
+            duration: 0.5,
+            when: "beforeChildren",
+            staggerChildren: 0.4
+        }
+    }
+}
+
 // skills section
 const Skills = () => {
     return (
@@ -27,69 +43,84 @@ const Skills = () => {
             variants={ skillsVariants }
             initial="hidden"
             whileInView="visible"
-            viewport={{ once: true, amount: 0.9 }}>
+            viewport={{ once: true, amount: 0.7 }}>
 
-            <img
-                id={ styles.wires1SVG }
-                src={ Wires1SVG }
-                alt="Wires1 SVG"
-            />
+                <img
+                    id={ styles.wires1SVG }
+                    src={ Wires1SVG }
+                    alt="Wires1 SVG"
+                />
 
-            <img
-                id={ styles.wires2SVG }
-                src={ Wires2SVG }
-                alt="Wires2 SVG"
-            />
+                <img
+                    id={ styles.wires2SVG }
+                    src={ Wires2SVG }
+                    alt="Wires2 SVG"
+                />
 
-            <div id={ styles.skillsHeading }>
-                <p>What can I do?</p>
-                <h3>Skills <FontAwesomeIcon icon={ faTerminal } id={ styles.faTerminal }/></h3>
-            </div>
+                <div id={ styles.skillsHeading }>
+                    <p>What can I do?</p>
+                    <h3>Skills <FontAwesomeIcon icon={ faTerminal } id={ styles.faTerminal }/></h3>
+                </div>
 
-            <div id={ styles.skillsContainer }>
-                {/* development skills */}
-                <div id={ styles.developmentContainer }>
-                    <h5>Development <FontAwesomeIcon icon={ faGears }/></h5>
+                <div id={ styles.skillsContainer }>
+                    {/* development skills */}
+                    <div id={ styles.developmentContainer }>
+                        <h5>Development <FontAwesomeIcon icon={ faGears }/></h5>
 
-                    <div id={ styles.developmentSkills }>
-                        <div id={ styles.frontendSkills }>
-                            <h6>Frontend</h6>
-                            <div className= { styles.skills }>
-                                <Skill icon= { faHtml5 } skillName="HTML5"/>
-                                <Skill icon= { faCss3 } skillName="CSS3"/>
-                                <Skill icon= { faJs } skillName="JavaScript"/>
-                                <Skill icon= { faBootstrap } skillName="Bootstrap"/>
-                                <Skill icon= { faReact } skillName="React.js"/>
-                                <Skill icon= { faSwift } skillName="Swift"/>
+                        <div id={ styles.developmentSkills }>
+                            <div id={ styles.frontendSkills }>
+                                <h6>Frontend</h6>
+                                <motion.div 
+                                    className= { styles.skills }
+                                    variants={ skillsParentVariant }
+                                    initial="hidden"
+                                    whileInView="visible"
+                                    viewport={{ once: true }}>
+                                    <Skill icon= { faHtml5 } skillName="HTML5"/>
+                                    <Skill icon= { faCss3 } skillName="CSS3"/>
+                                    <Skill icon= { faJs } skillName="JavaScript"/>
+                                    <Skill icon= { faBootstrap } skillName="Bootstrap"/>
+                                    <Skill icon= { faReact } skillName="React.js"/>
+                                    <Skill icon= { faSwift } skillName="Swift"/>
+                                </motion.div>
                             </div>
-                        </div>
 
-                        <div id={ styles.backendSkills }>
-                            <h6>Backend</h6>
-                            <div className={ styles.skills }>
-                                <Skill icon= { faPython } skillName="Python"/>
-                                <Skill icon= { faPhp } skillName="PHP" level="basic"/>
-                                <Skill icon= { faNodeJs } skillName="Node.js"/>
-                                <Skill icon= { faDatabase } skillName="SQL"/>
-                                <Skill icon= { faCloud } skillName="RESTful API"/>
+                            <div id={ styles.backendSkills }>
+                                <h6>Backend</h6>
+                                <motion.div 
+                                    className={ styles.skills }
+                                    variants={ skillsParentVariant }
+                                    initial="hidden"
+                                    whileInView="visible"
+                                    viewport={{ once: true }}>
+                                        <Skill icon= { faPython } skillName="Python"/>
+                                        <Skill icon= { faPhp } skillName="PHP" level="basic"/>
+                                        <Skill icon= { faNodeJs } skillName="Node.js"/>
+                                        <Skill icon= { faDatabase } skillName="SQL"/>
+                                        <Skill icon= { faCloud } skillName="RESTful API"/>
+                                </motion.div>
                             </div>
                         </div>
                     </div>
-                </div>
 
-                {/* tools skills */}
-                <div id={ styles.toolsContainer }>
-                    <h5>Tools <FontAwesomeIcon icon={ faTools }/></h5>
+                    {/* tools skills */}
+                    <div id={ styles.toolsContainer }>
+                        <h5>Tools <FontAwesomeIcon icon={ faTools }/></h5>
 
-                    <div className={ styles.skills }>
-                        <Skill icon= { faGit } skillName="Git"/>
-                        <Skill icon= { faGithub } skillName="Github"/>
-                        <Skill icon= { faDatabase } skillName="Firebase"/>
-                        <Skill icon= { faFigma } skillName="Figma"/>
-                        <Skill icon= { faSketch } skillName="Sketch"/>
+                        <motion.div 
+                            className={ styles.skills }
+                            variants={ skillsParentVariant }
+                            initial="hidden"
+                            whileInView="visible"
+                            viewport={{ once: true }}>
+                                <Skill icon= { faGit } skillName="Git"/>
+                                <Skill icon= { faGithub } skillName="Github"/>
+                                <Skill icon= { faDatabase } skillName="Firebase"/>
+                                <Skill icon= { faFigma } skillName="Figma"/>
+                                <Skill icon= { faSketch } skillName="Sketch"/>
+                        </motion.div>
                     </div>
                 </div>
-            </div>
         </motion.section>
     );
 }

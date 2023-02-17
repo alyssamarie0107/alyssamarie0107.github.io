@@ -21,84 +21,84 @@ const MyNav = () => {
             expand="lg" 
             variant="dark" 
             fixed="top">
-            <Container>
-                <Navbar.Toggle aria-controls="responsive-navbar-nav"/>
+                <Container>
+                    <Navbar.Toggle aria-controls="responsive-navbar-nav"/>
 
-                <Navbar.Collapse className={ styles.navbarCollapse }>
-                    {/* home page */}
-                    <Link
-                        className = { styles.navBtn }
-                        activeClass={ styles.navBtnActive }
-                        to="home" 
-                        spy={true} 
-                        smooth={true} 
-                        offset={-200} 
-                        duration={100}>
-                        Home
-                    </Link>
+                    <Navbar.Collapse className={ styles.navbarCollapse }>
+                        {/* home page */}
+                        <Link
+                            className = { styles.navBtn }
+                            activeClass={ styles.navBtnActive }
+                            to="home" 
+                            spy={true} 
+                            smooth={true} 
+                            offset={-200} 
+                            duration={100}>
+                            Home
+                        </Link>
 
-                    {/* about page */}
-                    <Link
-                        className = { styles.navBtn }
-                        activeClass={ styles.navBtnActive }
-                        to="about"
-                        spy={true}
-                        smooth={true}
-                        offset={-50}
-                        duration={100}>
-                        About
-                    </Link>
+                        {/* about page */}
+                        <Link
+                            className = { styles.navBtn }
+                            activeClass={ styles.navBtnActive }
+                            to="about"
+                            spy={true}
+                            smooth={true}
+                            offset={0}
+                            duration={100}>
+                            About
+                        </Link>
 
-                    {/* skills page */}
-                    <Link
-                        className = { styles.navBtn }
-                        activeClass={ styles.navBtnActive }
-                        to="skills"
-                        spy={true}
-                        smooth={true}
-                        offset={-50}
-                        duration={100}>
-                        Skills
-                    </Link>
+                        {/* skills page */}
+                        <Link
+                            className = { styles.navBtn }
+                            activeClass={ styles.navBtnActive }
+                            to="skills"
+                            spy={true}
+                            smooth={true}
+                            offset={0}
+                            duration={100}>
+                            Skills
+                        </Link>
 
-                    {/* experience page */}
-                    <Link 
-                        className = { styles.navBtn }
-                        activeClass={ styles.navBtnActive }
-                        to="experience"
-                        spy={true}
-                        smooth={true}
-                        offset={0}
-                        duration={100}>
-                        Experience
-                    </Link>
+                        {/* experience page */}
+                        <Link 
+                            className = { styles.navBtn }
+                            activeClass={ styles.navBtnActive }
+                            to="experience"
+                            spy={true}
+                            smooth={true}
+                            offset={0}
+                            duration={100}>
+                            Experience
+                        </Link>
 
-                    {/* projects page */}
-                    <Link 
-                        className = { styles.navBtn   }
-                        activeClass={ styles.navBtnActive }
-                        to="projects"
-                        spy={true}
-                        smooth={true}
-                        offset={-150}
-                        duration={100}>
-                        Projects
-                    </Link>
+                        {/* projects page */}
+                        <Link 
+                            className = { styles.navBtn   }
+                            activeClass={ styles.navBtnActive }
+                            to="projects"
+                            spy={true}
+                            smooth={true}
+                            offset={-150}
+                            duration={100}>
+                            Projects
+                        </Link>
 
-                    {/* contact page */}
-                    <Link 
-                        className = { styles.navBtn }
-                        activeClass={ styles.navBtnActive }
-                        to="contact"
-                        spy={true}
-                        smooth={true}
-                        offset={50}
-                        duration={100}>
-                        Contact
-                    </Link>
-                </Navbar.Collapse>
-                <SocialBtns/>
-            </Container>
+                        {/* contact page */}
+                        <Link 
+                            className = { styles.navBtn }
+                            activeClass={ styles.navBtnActive }
+                            to="contact"
+                            spy={true}
+                            smooth={true}
+                            offset={10}
+                            duration={100}>
+                            Contact
+                        </Link>
+                    </Navbar.Collapse>
+                    <SocialBtns/>
+                </Container>
         </Navbar>
     );
 }

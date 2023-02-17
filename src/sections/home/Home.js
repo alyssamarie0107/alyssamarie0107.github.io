@@ -58,9 +58,7 @@ const Home = () => {
                     variants={ homeVariants }
                     initial="hidden"
                     animate="visible">
-                        <h1>
-                            I'm Alyssa Rodriguez.
-                        </h1>
+                        <h1>I'm Alyssa Rodriguez.</h1>
 
                         <motion.h2 variants={ childVariants }>
                             Software Engineer <FontAwesomeIcon icon={ faLaptopCode } id={ styles.faLaptop }/>

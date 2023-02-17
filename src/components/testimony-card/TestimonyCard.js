@@ -1,17 +1,28 @@
 import styles from './TestimonyCard.module.css';
+import { motion } from 'framer-motion';
+
+// animation variants
+const testimonyCardVariants = {
+    hover: {
+        scale: 1.1
+    }
+}
 
 const TestimonyCard = (props) => {
     return (
-        <div className={ styles.TestimonyCard }>
-            <div className={ styles.content}>
-                <h5>"</h5>
-                <p>
-                    { props.testimony }
-                </p>
-            </div>
+        <motion.div className={ styles.TestimonyCard }>
+            <motion.div 
+                className={ styles.content}
+                variants={ testimonyCardVariants }
+                whileHover="hover">
+                    <h5>"</h5>
+                    <p>
+                        { props.testimony }
+                    </p>
+            </motion.div>
             <h5>{ props.by }</h5>
             <span>{ props.title }</span>
-        </div>
+        </motion.div>
     );
 }
  

@@ -3,7 +3,7 @@
     width: 85vw;
     display: flex;
     justify-content: center;
-    margin: 30px auto;
+    margin: 35px auto;
     border-radius: 30px;
     padding: 35px;
     box-shadow: 0 3px 3px -1px black;
@@ -12,6 +12,13 @@
 }
 
 .customNavbar {background-color: var(--cream);}
+
+#navbarContainer {
+    width: 100%;
+    display: flex;
+
+    background-color: red;
+}
 
 .navbarCollapse {
     display: flex;

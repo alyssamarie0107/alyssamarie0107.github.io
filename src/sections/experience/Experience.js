@@ -4,12 +4,27 @@ import { Nav, Row, Tab } from 'react-bootstrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBuilding } from '@fortawesome/free-solid-svg-icons'; 
 
+// animation variants
+const experienceVariants = {
+  hidden: {
+      opacity: 0
+  },
+  visible: {
+      opacity: 1,
+      transition: { duration: 1 }
+  }
+}
+
 // experience section
 const Experience = () => {
     return (
       <motion.section
         className={ styles.Experience }
-        id="experience">
+        id="experience"
+        variants={ experienceVariants }
+        initial="hidden"
+        whileInView="visible"
+        viewport={{ once: true, amount: 0.9 }}>
           
           <div id={ styles.experienceHeading }>
             <p>Where have I worked?</p>

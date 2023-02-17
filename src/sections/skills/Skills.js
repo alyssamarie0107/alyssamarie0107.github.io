@@ -7,12 +7,27 @@ import Skill from '../../components/skill/Skill';
 import Wires1SVG from '../../assets/svg/wires1.svg';
 import Wires2SVG from '../../assets/svg/wires2.svg';
 
+// animation variants
+const skillsVariants = {
+    hidden: {
+        opacity: 0
+    },
+    visible: {
+        opacity: 1,
+        transition: { duration: 1 }
+    }
+}
+
 // skills section
 const Skills = () => {
     return (
         <motion.section
             className={ styles.Skills }
-            id="skills">
+            id="skills"
+            variants={ skillsVariants }
+            initial="hidden"
+            whileInView="visible"
+            viewport={{ once: true, amount: 0.9 }}>
 
             <img
                 id={ styles.wires1SVG }

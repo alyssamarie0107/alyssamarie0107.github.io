@@ -72,10 +72,7 @@ const Home = () => {
 
                         <ContactBtns/>
                 </motion.div>
-            
-                {/* can omitt inital and animate props because it inherits from home variants(parent) */}
-                {/* not inheritting the initial and animate props defined in homeVariants */}
-                {/* instead, inherits the 2 lines of code, initial="hidden", animate="visible" */}
+
                 <motion.img
                     id={ styles.worldWebSVG }
                     src={ WorldWebSVG }

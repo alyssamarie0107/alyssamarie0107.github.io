@@ -56,7 +56,7 @@ const MyNav = () => {
                         to="skills"
                         spy={true}
                         smooth={true}
-                        offset={0}
+                        offset={-50}
                         duration={100}>
                         Skills
                     </Link>

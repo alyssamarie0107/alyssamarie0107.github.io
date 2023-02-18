@@ -1,5 +1,4 @@
 import styles from './Nav.module.css';
-// import { motion } from 'framer-motion';
 import { Navbar, Container } from 'react-bootstrap';
 import { Link } from 'react-scroll';
 import SocialBtns from '../buttons/social/SocialBtns';
@@ -35,7 +34,7 @@ const MyNav = () => {
                             smooth={true} 
                             offset={-200} 
                             duration={100}>
-                            Home
+                                Home
                         </Link>
 
                         {/* about page */}
@@ -47,7 +46,7 @@ const MyNav = () => {
                             smooth={true}
                             offset={0}
                             duration={100}>
-                            About
+                                About
                         </Link>
 
                         {/* skills page */}
@@ -59,7 +58,7 @@ const MyNav = () => {
                             smooth={true}
                             offset={0}
                             duration={100}>
-                            Skills
+                                Skills
                         </Link>
 
                         {/* experience page */}
@@ -71,7 +70,7 @@ const MyNav = () => {
                             smooth={true}
                             offset={0}
                             duration={100}>
-                            Experience
+                                Experience
                         </Link>
 
                         {/* projects page */}
@@ -83,7 +82,7 @@ const MyNav = () => {
                             smooth={true}
                             offset={-150}
                             duration={100}>
-                            Projects
+                                Projects
                         </Link>
 
                         {/* contact page */}
@@ -95,7 +94,7 @@ const MyNav = () => {
                             smooth={true}
                             offset={10}
                             duration={100}>
-                            Contact
+                                Contact
                         </Link>
                     </Navbar.Collapse>
                     <SocialBtns/>

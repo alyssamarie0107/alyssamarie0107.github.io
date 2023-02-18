@@ -16,6 +16,16 @@
 
 /* end scrollbar css */
 
+/* App css */
+/* for loader */
+.App {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--darkgray);
+}
+
 /* global css */
 h1 {font-size: 68px;}
 

@@ -7,7 +7,7 @@ import ContactBtns from '../../components/buttons/contact/contact-btns/ContactBt
 
 // animation variants
 // parent
-const homeVariants = {
+const homeContainerVariants = {
     hidden: {
         opacity: 0
     },
@@ -35,11 +35,13 @@ const childVariants = {
 const worldWebVariants = {
     hidden: {
         scale: 0,
-        x: "-100vw"
+        x: "-100vw",
+        rotate: 180
     },
     visible: {
         scale: 1,
         x: 0,
+        rotate: 0,
         transition: { 
             delay: 2,
             duration: 3
@@ -55,7 +57,7 @@ const Home = () => {
             id="home">
                 <motion.div 
                     id={ styles.homeContainer }
-                    variants={ homeVariants }
+                    variants={ homeContainerVariants }
                     initial="hidden"
                     animate="visible">
                         <h1>I'm Alyssa Rodriguez.</h1>

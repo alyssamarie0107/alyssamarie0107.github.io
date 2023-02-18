@@ -31,7 +31,7 @@ const roboticHandVariants = {
     }
 }
 
-// contact section code
+// contact section
 const Contact = () => {
     return (
         <motion.section

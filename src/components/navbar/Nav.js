@@ -1,4 +1,5 @@
 import styles from './Nav.module.css';
+// import { motion } from 'framer-motion';
 import { Navbar, Container } from 'react-bootstrap';
 import { Link } from 'react-scroll';
 import SocialBtns from '../buttons/social/SocialBtns';

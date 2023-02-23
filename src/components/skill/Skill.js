@@ -9,9 +9,6 @@ const skillsChildVariants = {
     },
     visible: {
         opacity: 1
-    },
-    hover: {
-        scale: 1.1
     }
 }
 
@@ -23,11 +20,9 @@ const Skill = (props) => {
             className={ styles.Skill }
             variants={ skillsChildVariants }>
                 <div className={ styles.skillContainer }>
-                    <motion.div 
-                        variants={ skillsChildVariants }
-                        whileHover="hover">
+                    <div>
                             <FontAwesomeIcon icon={ props.icon } size="2x" className="fa-fw"/>
-                    </motion.div>
+                    </div>
                     <span>{ props.skillName }</span>
                 </div>
         </motion.div>

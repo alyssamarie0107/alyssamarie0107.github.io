@@ -40,6 +40,12 @@ const Testimony = () => {
                             by="Jason Brown" 
                             title="General Manager @ Game OVA"
                         />
+
+                        <TestimonyCard
+                            testimony="I had the pleasure of having classes with Alyssa while attending UC Davis together. Alyssa is an incredibly talented and dedicated frontend developer and is a great asset to any team. She was able to quickly understand complex problems and develop solutions that were both effective and efficient. She was also a great collaborator, able to communicate her ideas effectively and take on feedback gracefully. I highly recommend Alyssa for any frontend development position and am confident that she would be an excellent addition to any team."
+                            by="Alejandro Armas"
+                            title="Former Classmate @ UC Davis"
+                        />
                 </motion.div>
         </section>
     );

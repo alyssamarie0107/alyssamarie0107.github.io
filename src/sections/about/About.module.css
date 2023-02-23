@@ -1,9 +1,4 @@
 /* about section css */
-strong {
-    color: var(--lightblue);
-    text-shadow: 0px 3px 5px rgba(0, 0, 0, 0.5);
-}
-
 .About {position: relative;}
 
 #sparks1SVG {

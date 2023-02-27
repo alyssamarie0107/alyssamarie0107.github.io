@@ -93,7 +93,7 @@ const Projects = () => {
                                 alt="Lost & Found"
                                 imgStyling="webImg"
                                 projectTitle="UCD Lost & Found"
-                                projectDescription="Final project submission for ECS 162: Web Programming. My team and I successfully implemented a full-stack web app to act as a Lost & Found page for UC Davis. This web app can only be accessed by users with a valid ucdavis.edu email."
+                                projectDescription="A full-stack web app to act as a Lost & Found page for UC Davis. NOTE: This web app can only be fully accessed by users with a valid ucdavis.edu email. Users who do not have a valid ucdavis.edu email can only view the login page."
                                 projectViewBtns={
                                     <div className={ styles.projectViewBtns }>
                                         <ViewBtn href="https://metacoders-ucd-lf.glitch.me/">View Website</ViewBtn>
@@ -115,7 +115,7 @@ const Projects = () => {
                                 alt="Postcard Generator"
                                 imgStyling="webImg"
                                 projectTitle="Postcard Generator"
-                                projectDescription="A web app that enables users to create a postcard sharing a moment of their day to their friends, family, and loved ones."
+                                projectDescription="A web app that enables users to create a postcard sharing a moment of their day to their friends, family, and loved ones. NOTE: This app takes some time to load due to it being viewed on glitch.com."
                                 projectViewBtns={
                                     <div className={ styles.projectViewBtns }>
                                         <ViewBtn href="https://post-tranquil-creator.glitch.me/">View Website</ViewBtn>

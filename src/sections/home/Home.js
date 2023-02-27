@@ -67,7 +67,7 @@ const Home = () => {
                         </motion.h2>
                         
                         <motion.p variants={ childVariants }>
-                            based in San Francisco, CA who is experienced in building frontend web applications that functions efficiently and provides exceptional digital experiences. I am passionate about all things technology and love tackling complex problems that make a positive impact on everyday lives.
+                            based in San Francisco, CA who is focused and experienced in building frontend web applications that functions efficiently and provides exceptional digital experiences. I am passionate about all things technology and love tackling complex problems that make a positive impact on everyday lives.
                         </motion.p>
 
                         <ContactBtns/>

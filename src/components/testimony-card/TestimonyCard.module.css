@@ -31,9 +31,12 @@
 
 /* for large, medium, and small mobile devices */
 @media only screen and (max-width: 425px) {
-    .TestimonyCard {margin: 0;}
+    .TestimonyCard {margin: 20px 0;}
 
-    .content {width: 280px;}
+    .content {
+        width: 280px;
+        height: 490px;
+    }
 
     .Testimonial > p {font-size: 16px;}
 

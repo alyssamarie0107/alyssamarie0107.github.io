@@ -110,6 +110,8 @@ section {
     h1 {font-size: 33px;}
     h2 {font-size: 31px;}
     h3 {font-size: 29px;}
+
+    section {margin-bottom: 100px;}
 }
 
 /* for medium mobile device */

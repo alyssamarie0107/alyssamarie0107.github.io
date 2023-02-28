@@ -39,7 +39,7 @@ const About = () => {
                     variants={ imgVariants }
                     initial="hidden"
                     whileInView="visible"
-                    viewport={{ once: true, amount: 0.7 }}
+                    viewport={{ once: true }}
                 />
 
                 <motion.img
@@ -49,7 +49,7 @@ const About = () => {
                     variants={ imgVariants }
                     initial="hidden"
                     whileInView="visible"
-                    viewport={{ once: true, amount: 0.7 }}
+                    viewport={{ once: true  }}
                 />
 
                 <motion.div 
@@ -57,7 +57,7 @@ const About = () => {
                     variants={ aboutContainerVariants }
                     initial="hidden"
                     whileInView="visible"
-                    viewport={{ once: true, amount: 0.7 }}>
+                    viewport={{ once: true }}>
                         <p>Who am I?</p>
                         <h3>About Me <FontAwesomeIcon icon={ faFemale } id={styles.faFemale } /></h3>
                 </motion.div>
@@ -67,11 +67,11 @@ const About = () => {
                     variants={ aboutContainerVariants }
                     initial="hidden"
                     whileInView="visible"
-                    viewport={{ once: true, amount: 0.7 }}>
+                    viewport={{ once: true }}>
                         <div id = { styles.about }>
-                            <p>Hello! My name is Alyssa Rodriguez. I am a Software Engineer, based in San Francisco, CA who is specializing in frontend web development. I graduated from the University of California, Davis in June of 2021 with a Bachelor of Science degree in Computer Science. Currently, I am working as a Code Coach at theCoderSchool, where I teach students between the ages of 6-18 how to code in Scratch, Python, or JavaScript. Recently, I have completed a year long internship with UCSF as their Front-End Web Developer Intern.</p>
+                            <p>Hello! My name is Alyssa Rodriguez. I am a Software Engineer, based in San Francisco, CA who is specializing in frontend web development. I graduated from the University of California, Davis in June of 2021 with a Bachelor of Science degree in Computer Science. Currently, I am working as a Code Coach at theCoderSchool, where I teach students between the ages of 6-18 how to code in Scratch, Python, or JavaScript. Recently, I have completed a year long internship with the University of California, San Francisco (UCSF) as their Front-End Web Developer Intern.</p>
 
-                            <p>I consider work as a engineer an ongoing education and I am continuously working to enhance my skillset. I am also always looking for opportunities to work with those who are willing to share their knowledge as much as I want to learn. I am passionate about writing clean, scalable, and efficient code that outputs pixel perfect, interative, and responsive results to the web. Currently, I am seeking software engineering positions that focus in frontend or full stack development.</p>
+                            <p>I consider work as a engineer an ongoing education and I am continuously working to enhance my skillset, whether that is watching tutorials on YouTube, taking courses on Udemy or LinkedIn Learning, and/or building projects with the latest technology. Though I am focusing more on frontend, I am learning more backend technologies, such as PHP, so that I can be full stack. I am passionate about writing clean, scalable, and efficient code that outputs pixel perfect, interative, and responsive results to the web. Currently, I am actively seeking software engineering positions that focus in frontend or full stack development.</p>
                         </div>
                 </motion.div>
         </section>

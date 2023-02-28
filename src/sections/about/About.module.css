@@ -2,14 +2,14 @@
 .About {position: relative;}
 
 #sparks1SVG {
-    top: 70px;
-    left: 0px;
+    top: 90px;
+    left: -25px;
     position: absolute;
 }
 
 #sparks2SVG {
-    bottom: 20px;
-    right: 25px;
+    bottom: 30px;
+    right: 0px;
     position: absolute;
 }
 
@@ -32,7 +32,7 @@
     box-shadow: -20px 10px var(--cream);
 }
 
-/* for tablet devices */
+/* for large devices */
 @media only screen and (max-width: 1140px) {
     #sparks1SVG {
         top: 100px;
@@ -49,58 +49,63 @@
     #about {width: 75vw;}
   }
 
-/* for large mobile devices */
-@media only screen and (max-width: 425px) {
+  @media only screen and (max-width: 880px) {
+    #sparks1SVG,
+    #sparks2SVG {
+        width: 100px;
+        height: 100px;
+    }
+
     #sparks1SVG {
-        top: 20px;
-        left: 15px;
-        width: 90px;
-        height: 90px;
+        top: 80px;
+        left: 20px;
     }
 
     #sparks2SVG {
-        top: 20px;
-        right: 15px;
+        bottom: -50px;
+    }
+
+    #about {width: 85vw;}
+  }
+
+/* for large mobile devices */
+@media only screen and (max-width: 700px) {
+    #sparks1SVG,
+    #sparks2SVG {
+        top: 30px;
         width: 90px;
         height: 90px;
     }
 
+    #sparks1SVG {left: 30px;}
+
+    #sparks2SVG {right: 30px;}
+
     #about {
-        width: 80vw;
-        box-shadow: 15px -10px var(--ashgray);
+        width: 95vw;
+        box-shadow: none;
     }
+
+    #aboutHeading {margin-bottom: 50px;}
   }
 
 /* for medium mobile devices */
-@media only screen and (max-width: 375px) {
-    #sparks1SVG {
-        top: 10px;
-        left: 35px;
-        width: 70px;
-        height: 70px;
-    }
-
+@media only screen and (max-width: 555px) {
+    #sparks1SVG,
     #sparks2SVG {
-        top: 10px;
-        right: 35px;
+        top: 0px;
         width: 70px;
         height: 70px;
     }
 
-    #about {
-        width: 85vw;
-        box-shadow: 10px -10px var(--ashgray);
-    }
+    #sparks1SVG {left: 35px;}
+
+    #sparks2SVG {right: 35px;}
   }
 
 /* for small mobile devices */
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 470px) {
     #sparks1SVG {left: 20px;}
 
     #sparks2SVG {right: 20px;}
-
-    #about {
-        width: 90vw;
-        box-shadow: none;
-    }
   }

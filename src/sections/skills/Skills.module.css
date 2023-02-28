@@ -1,17 +1,15 @@
 /* skills section css */
 .Skills {position: relative;}
 
-#wires1SVG {
-    bottom: 450px;
-    left: 0px;
+#wires1SVG,
+#wires2SVG {
+    top: 50%;
     position: absolute;
 }
 
-#wires2SVG {
-    bottom: 450px;
-    right: 0px;
-    position: absolute;
-}
+#wires1SVG {left: 0;}
+
+#wires2SVG {right: 0;}
 
 #skillsHeading {margin-bottom: 30px;}
 
@@ -62,11 +60,7 @@
 /* for tablet devices  */
 @media only screen and (max-width: 768px) {
     #wires1SVG,
-    #wires2SVG {
-        bottom: 0px;
-        width: 220px;
-        height: 120px;
-    }
+    #wires2SVG {display: none;}
 }
 
 /* for large, medium, and small moblile devices */
@@ -75,7 +69,4 @@
     #backendSkills {flex-direction: column;}
 
     .skills {width: 95vw;}
-
-    #wires1SVG,
-    #wires2SVG {display: none;}
 }

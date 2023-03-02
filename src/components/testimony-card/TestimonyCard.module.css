@@ -9,7 +9,7 @@
 
 .content {
     width: 300px;
-    height: 475px;
+    height: auto;
     padding: 20px;
     border-radius: 20px;
     margin-bottom: 30px;
@@ -33,10 +33,7 @@
 @media only screen and (max-width: 425px) {
     .TestimonyCard {margin: 20px 0;}
 
-    .content {
-        width: 280px;
-        height: 490px;
-    }
+    .content {width: 280px;}
 
     .Testimonial > p {font-size: 16px;}
 

@@ -39,7 +39,8 @@ const Contact = () => {
             id="contact"
             variants={ contactVariants }
             initial="hidden"
-            whileInView="visible">
+            whileInView="visible"
+            viewport={{ once: true }}>
                 <div id={ styles.contactHeading }>
                     <p>What's Next?</p>
                     <h3>Get in Touch <FontAwesomeIcon icon={ faMessage } id={ styles.faMessage }/></h3>

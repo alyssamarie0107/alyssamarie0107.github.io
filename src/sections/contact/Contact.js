@@ -47,7 +47,7 @@ const Contact = () => {
                 </div>
 
                 <div id={ styles.contactContainer }>
-                    <p>I am always looking for opportunities to expand upon my skills and I am currently seeking full-time software engineering opportunities. Please do not hesitate to get in touch! My inbox is always open and I'd love to hear from you if you are looking to network or are interested in having me on your team.</p>
+                    <p>I am always looking for opportunities to expand upon my skills and I am currently seeking software engineering opportunities. Please do not hesitate to get in touch! My inbox is always open and I'd love to hear from you if you are looking to network or are interested in having me on your team.</p>
 
                     <ContactBtn 
                         id="getInTouchBtn" 

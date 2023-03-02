@@ -57,10 +57,11 @@ const Experience = () => {
                     <Tab.Pane eventKey="first">
                       <h5>Code Coach @ theCoderSchool</h5>
                       <p className={ styles.date }>August 2022 - Present</p>
-                      <ul>
+                      {/* <ul>
                         <li>Instruct students the core fundamentals of programming through a project-based learning approach in Scratch, Python, or JavaScript.</li>
                         <li>Create lesson plans tailored to each students’ learning style, interests, and level as well as document their progress each session.</li>
-                      </ul>
+                      </ul> */}
+                      <p>Currently, I have the incredible opportunity to work as a Code Coach at theCoderSchool San Francisco, West Portal branch. I instruct students in a 1:1 or 2:1 setting (remote or in-person) the core fundamentals of object-oriented programming, problem-solving, algorithm design, debugging, and testing through a project-based learning approach in Scratch, Python, or JavaScript. Before each session, I create lesson plans tailored to each students' learning style, interests, and level. Additionally, at the end of each session, I document their progress and send a report to their guardian(s). The most rewarding part of this role is witnessing my students' understanding/knowledge grow and seeing their eyes light up when they solve a problem on their own. I truly enjoy working with my students and shaping them to be great coders.</p>
                     </Tab.Pane>
                     <Tab.Pane eventKey="second">
                       <h5>Frontend Web Developer Intern @ UCSF</h5>

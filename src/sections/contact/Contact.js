@@ -60,8 +60,6 @@ const Contact = () => {
                     src={ RoboticHandSVG }
                     alt="Robotic Hand SVG"
                     variants={ roboticHandVariants }
-                    initial="hidden"
-                    whileInView="visible"
                 />
         </motion.section>
     );

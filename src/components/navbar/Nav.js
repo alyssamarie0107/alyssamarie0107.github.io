@@ -92,7 +92,7 @@ const MyNav = () => {
                             to="contact"
                             spy={true}
                             smooth={true}
-                            offset={50}
+                            offset={30}
                             duration={100}>
                                 Contact
                         </Link>

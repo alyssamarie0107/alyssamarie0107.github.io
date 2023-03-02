@@ -116,7 +116,14 @@ section {
 
 /* for medium mobile device */
 @media only screen and (max-width: 406px) {
-    h1 {font-size: 24px;}
-    h2 {font-size: 22px;}
-    h3 {font-size: 20px;}
+    h1 {font-size: 30px;}
+    h2 {font-size: 28px;}
+    h3 {font-size: 26px;}
+}
+
+/* for small mobile devices */
+@media only screen and (max-width: 346px) {
+    h1 {font-size: 27px;}
+    h2 {font-size: 26px;}
+    h3 {font-size: 24px;}
 }

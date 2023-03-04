@@ -24,7 +24,7 @@ const Experience = () => {
         variants={ experienceVariants }
         initial="hidden"
         whileInView="visible"
-        viewport={{ once: true, amount: 0.9 }}>
+        viewport={{ once: true }}>
           <div id={ styles.experienceHeading }>
             <p>Where have I worked?</p>
             <h3>Experience <FontAwesomeIcon icon={ faBuilding } id={ styles.faBuilding }/></h3>

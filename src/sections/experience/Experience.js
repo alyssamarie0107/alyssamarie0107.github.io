@@ -11,7 +11,10 @@ const experienceVariants = {
   },
   visible: {
       opacity: 1,
-      transition: { duration: 1 }
+      transition: {
+        delay: 0.8,
+        duration: 1 
+      }
   }
 }
 

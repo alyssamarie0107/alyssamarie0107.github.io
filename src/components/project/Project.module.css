@@ -60,14 +60,12 @@
 
 /* for laptop devices */
 @media only screen and (max-width: 1024px) {
-    .projectDescription > p {
-        width: 55vw;
-    }
+    .projectDescription > p {width: 55vw;}
 }
 
 /* for tablet devices */
 @media only screen and (max-width: 768px) {
-    .projectDescription > p {width: 75vw;}
+    .projectDescription > p {width: 80vw;}
 
     .projectImgContainer > .webImg {
         width: 500px;
@@ -83,7 +81,7 @@
 }
 
 @media only screen and (max-width: 475px) {
-    .projectDescription > p {width: 85vw;}
+    .projectDescription > p {width: 90vw;}
 
     .projectImgContainer > .webImg {
         width: 350px;

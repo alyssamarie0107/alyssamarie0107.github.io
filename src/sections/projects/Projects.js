@@ -38,7 +38,7 @@ const Projects = () => {
             variants={ projectsVariants }
             initial="hidden"
             whileInView="visible"
-            viewport={{ once: true, amount: 0.2 }}>
+            viewport={{ once: true }}>
                 <div id={ styles.projectsHeading }>
                     <p>What have I built?</p>
                     <h3>Projects <FontAwesomeIcon icon={ faCode } id={ styles.faCode }/></h3>

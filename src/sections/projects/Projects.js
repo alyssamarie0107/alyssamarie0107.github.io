@@ -5,7 +5,8 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCode } from '@fortawesome/free-solid-svg-icons';
 import Project from '../../components/project/Project';
 import ViewBtn from '../../components/buttons/view/ViewBtn';
-import Des157A from '../../assets/png/des157.png';
+import MadLibs from '../../assets/png/madlibs.png';
+import EveryPicture from '../../assets/png/every-pic.png';
 import Pomocon from '../../assets/png/pomocon.png';
 import UCDLostFound from '../../assets/png/ucd-lf.png';
 import Postcard from '../../assets/png/postcard.png';
@@ -48,17 +49,36 @@ const Projects = () => {
                     {/* web application projects */}
                     <Tab eventKey="web" title="Web" className={ styles.TabContainer }>
                         <div className={ styles.projectsContainer }>
-                            {/* interactive media design */}
+                            {/* madlibs */}
                             <Project
-                                src={ Des157A }
-                                alt="Des157A"
+                                src={ MadLibs }
+                                alt="Madlibs"
                                 imgStyling="webImg"
-                                projectTitle="Interative Media Design Portfolio"
-                                projectDescription="Portfolio created for DES 157A: Interactive Media Design II, which was taken at UC Davis in Spring 2021. This course focused on conceptual framework, user experience, visual interface and interaction design."
+                                projectTitle="Madlibs"
+                                projectDescription=""
                                 projectViewBtns={
                                     <div className={ styles.projectViewBtns }>
-                                        <ViewBtn href="https://alyssamarie0107.github.io/des157-portfolio/des157/">View Website</ViewBtn>
-                                        <ViewBtn href="https://github.com/alyssamarie0107/des157-portfolio/tree/main/des157">View Code</ViewBtn>
+                                        <ViewBtn href="https://alyssamarie0107.github.io/des157-portfolio/des157/studio1/index.html">View Website</ViewBtn>
+                                        <ViewBtn href="https://github.com/alyssamarie0107/des157-portfolio/tree/main/des157/studio1">View Code</ViewBtn>
+                                    </div>
+                                }>
+                                {/* tech stack */}
+                                <li>HTML5</li>
+                                <li>CSS</li>
+                                <li>JavaScript</li>
+                            </Project>
+
+                            {/* every picture */}
+                            <Project
+                                src={ EveryPicture }
+                                alt="Every Picture"
+                                imgStyling="webImg"
+                                projectTitle="Every Picture"
+                                projectDescription=""
+                                projectViewBtns={
+                                    <div className={ styles.projectViewBtns }>
+                                        <ViewBtn href="https://alyssamarie0107.github.io/des157-portfolio/des157/studio2/index.html">View Website</ViewBtn>
+                                        <ViewBtn href="https://github.com/alyssamarie0107/des157-portfolio/tree/main/des157/studio2">View Code</ViewBtn>
                                     </div>
                                 }>
                                 {/* tech stack */}

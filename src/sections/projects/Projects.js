@@ -5,8 +5,9 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCode } from '@fortawesome/free-solid-svg-icons';
 import Project from '../../components/project/Project';
 import ViewBtn from '../../components/buttons/view/ViewBtn';
+import GameOfPig from '../../assets/png/game-of-pig.png';
 import MadLibs from '../../assets/png/madlibs.png';
-import EveryPicture from '../../assets/png/every-pic.png';
+import CameraCollection from '../../assets/png/every-pic.png';
 import Pomocon from '../../assets/png/pomocon.png';
 import UCDLostFound from '../../assets/png/ucd-lf.png';
 import Postcard from '../../assets/png/postcard.png';
@@ -49,13 +50,36 @@ const Projects = () => {
                     {/* web application projects */}
                     <Tab eventKey="web" title="Web" className={ styles.TabContainer }>
                         <div className={ styles.projectsContainer }>
+                            {/* game of pig */}
+                            <Project
+                                src={ GameOfPig }
+                                alt="Game of Pug"
+                                imgStyling="webImg"
+                                projectTitle="Game of Pig"
+                                projectDescription="A two-player game developed using HTML, CSS, and JavaScript. The objective of the game is to be the first player to score 30 points or more. Each player takes turns rolling a dice. The total of the roll is added to the player's score, unless either dice shows a 'pig'. If a 'pig' appears, the player's turn ends and it is the other player's turn. The current player has the option to roll again (assuming they did not roll a 'pig'), or pass the turn to the other player if they feel that luck is not on their side.
+
+                                Beware of rolling two 'pigs', as this will reset your current score to zero. The game's graphics and sound effects create an immersive experience that engages players for hours on end.
+
+                                The game is easy to play and comes with intuitive controls that allow players to roll the dice and make decisions with ease."
+                                projectViewBtns={
+                                    <div className={ styles.projectViewBtns }>
+                                        <ViewBtn href="https://alyssamarie0107.github.io/des157-portfolio/des157/studio3/index.html">View Website</ViewBtn>
+                                        <ViewBtn href="https://github.com/alyssamarie0107/des157-portfolio/tree/main/des157/studio3">View Code</ViewBtn>
+                                    </div>
+                                }>
+                                {/* tech stack */}
+                                <li>HTML5</li>
+                                <li>CSS</li>
+                                <li>JavaScript</li>
+                            </Project>
+
                             {/* madlibs */}
                             <Project
                                 src={ MadLibs }
-                                alt="Madlibs"
+                                alt="Mood Affirmation Madlibs"
                                 imgStyling="webImg"
                                 projectTitle="Madlibs"
-                                projectDescription=""
+                                projectDescription="This project helps users receive positive reminders or statements based on their mood. The project was created to practice getting user input from a form and producing output in a creative way. The project prompts the user to enter their name, select a mood, state their favorite hobby, food, and the person who makes them the happiest. After the user fills out the form, a madlib is generated that validates their mood, suggests ways to increase their mood, and ends with an affirmation that encourages them to keep a positive outlook. The user interface is simple and easy to navigate, with clear instructions and prompts that guide users through the form. The project's graphics and animations create a fun and engaging experience that encourages users to complete the form and receive their personalized madlib. Overall, Mood Affirmation Madlibs is an excellent example of how JavaScript can be used to create interactive and personalized experiences for users. Whether you are feeling down or just want to uplift your mood, this application is sure to provide you with positive affirmations and reminders that will help you feel better and put a smile on your face."
                                 projectViewBtns={
                                     <div className={ styles.projectViewBtns }>
                                         <ViewBtn href="https://alyssamarie0107.github.io/des157-portfolio/des157/studio1/index.html">View Website</ViewBtn>
@@ -70,11 +94,11 @@ const Projects = () => {
 
                             {/* every picture */}
                             <Project
-                                src={ EveryPicture }
-                                alt="Every Picture"
+                                src={ CameraCollection }
+                                alt="Camera Collection"
                                 imgStyling="webImg"
-                                projectTitle="Every Picture"
-                                projectDescription=""
+                                projectTitle="Vintage Camera Collection"
+                                projectDescription="A web application that showcases a collection of my vintage cameras. The project was inspired by my passion for collecting vintage cameras and taking photos, which started when my father passed down my great grandfather's Bell & Howell Zoomatic Movie camera. The web application is designed to showcase the collection and provide users with an interactive way to explore it. The user interface is simple and intuitive, with a image of the camera and the name below. When the user hovers over a camera name, a photo (mostly taken with that camera) is displayed in the photo area. This project helped me practice overlays and slideshows in JavaScript. The photos are displayed using an overlay that provides users with a slideshow feature that allows users to view multiple photos taken with the same camera. Whether you are a vintage camera enthusiast or just enjoy exploring unique collections, My Vintage Camera Collection is sure to provide you with an enjoyable experience."
                                 projectViewBtns={
                                     <div className={ styles.projectViewBtns }>
                                         <ViewBtn href="https://alyssamarie0107.github.io/des157-portfolio/des157/studio2/index.html">View Website</ViewBtn>

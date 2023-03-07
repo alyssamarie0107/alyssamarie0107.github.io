@@ -60,51 +60,68 @@ const Experience = () => {
                     <Tab.Pane eventKey="first">
                       <h5>Code Coach @ theCoderSchool</h5>
                       <p className={ styles.date }>August 2022 - Present</p>
-                      {/* <ul>
-                        <li>Instruct students the core fundamentals of programming through a project-based learning approach in Scratch, Python, or JavaScript.</li>
-                        <li>Create lesson plans tailored to each students’ learning style, interests, and level as well as document their progress each session.</li>
-                      </ul> */}
-                      <p>Currently, I have the incredible opportunity to work as a Code Coach at theCoderSchool San Francisco, West Portal branch. I instruct students in a 1:1 or 2:1 setting (remote or in-person) the core fundamentals of object-oriented programming, problem-solving, algorithm design, debugging, and testing through a project-based learning approach in Scratch, Python, or JavaScript. Before each session, I create lesson plans tailored to each students' learning style, interests, and level. Additionally, at the end of each session, I document their progress and send a report to their guardian(s). The most rewarding part of this role is witnessing my students' understanding/knowledge grow and seeing their eyes light up when they solve a problem on their own. I truly enjoy working with my students and shaping them to be great coders.</p>
+                      <p>Presently, I am privileged to serve as a Code Coach at theCoderSchool San Francisco, West Portal branch. In this capacity, I offer personalized instruction to students in a one-on-one or two-on-one setting, either remotely or in-person, on the fundamental principles of object-oriented programming, problem-solving, algorithm design, debugging, and testing, utilizing a project-based learning methodology in languages such as Scratch, Python, or JavaScript.</p>
+                      
+                      <p>In preparation for each session, I prepare individualized lesson plans based on each student's unique learning style, interests, and skill level. Additionally, upon the conclusion of each session, I meticulously document each student's progress and send a comprehensive report to their respective guardian(s).</p>
+                      
+                      <p>Witnessing my students' knowledge and proficiency in coding expand and observing the joy they exude when overcoming a challenge independently is the most gratifying aspect of this role. I derive immense satisfaction from guiding and inspiring my students as they progress towards becoming accomplished coders.</p>
                     </Tab.Pane>
+
                     <Tab.Pane eventKey="second">
                       <h5>Frontend Web Developer Intern @ UCSF</h5>
                       <p className={ styles.date }>January 2022 - January 2023</p>
-                      <ul>
-                        <li>Communicated with various key stakeholders within the DOM to understand user needs and to determine satisfying shipping solutions.</li>
-                        <li>Contributed a collapsible side navigation bar with the ability to have nested submenus and built other frontend components and features for the DOM’s Business Operations page utilizing HTML, CSS, Bootstrap, and JavaScript.</li>
-                        <li>Upgraded report generation system to KoolReport, which reduced page load time by 30% and report development time by 60%.</li>
-                        <li>Established and constructed a KoolReport styling template with custom CSS that contributed to a system-wide report standard.</li>
-                        <li>Improved the user’s experience on the Faculty Availability page by adding AJAX to avoid page reload when availability was changed.</li>
-                        <li>Added a widget to the Division of Hospital Medicine’s Balance Sheets that calculated the number of weeks, based on two dates, of unemployment and auto filled the corresponding input field so that users no longer had to perform the calculation themselves.</li>
-                        <li>Redesigned and built the Manager Notification pages for the Performance Evaluation Portal that greatly improved the user’s workflow. </li>
-                      </ul>
+                      <p>As a Frontend Web Developer Intern with UCSF, I had the opportunity to collaborate with various key stakeholders within the DOM to understand user needs and determine satisfying shipping solutions. Through this communication, I gained valuable insights into the importance of user-centered design and the impact of effective communication in project management.</p>
+
+                      <p>One of my notable contributions during this internship was building a collapsible side navigation bar with nested submenus, as well as other frontend components and features for the DOM’s Business Operations page using HTML, CSS, Bootstrap, and JavaScript. This helped to improve website navigation and enhance the user experience.</p>
+
+                      <p>I also upgraded the report generation system to KoolReport, which significantly reduced page load time by 30% and report development time by 60%. In addition, I established and constructed a KoolReport styling template with custom CSS that contributed to a system-wide report standard.</p>
+
+                      <p>To further enhance user experience, I added AJAX to the Faculty Availability page to avoid page reload when availability was changed. Additionally, I developed a widget for the Division of Hospital Medicine’s Balance Sheets that automatically calculated the number of weeks of unemployment based on two dates, auto-filling the corresponding input field. This greatly improved the user's efficiency and streamlined the process.</p>
+
+                      <p>
+                      Redesigning and building the Manager Notification pages for the Performance Evaluation Portal was particularly rewarding. I leveraged modern web technologies, incorporated user feedback, and streamlined the process to create a more efficient and user-friendly workflow. This experience taught me the importance of attention to detail, empathy for users, and the value of user feedback in project development.</p>
+
+                      <p>
+                      Overall, my internship with UCSF provided me with valuable experiences and learning opportunities, including the importance of effective communication, user-centered design, and the power of modern web technologies in enhancing user experience. I am proud of the accomplishments I made and grateful for the skills and knowledge I gained.</p>
                     </Tab.Pane>
+
                     <Tab.Pane eventKey="third">
                       <h5>Web Developer @ GameOVA</h5>
                       <p className={ styles.date }>April 2021 - September 2021</p>
-                      <ul>
-                        <li>Partnered with UI/UX designer to establish rich interfaces and seamless experiences using Figma.</li>
-                        <li>Participated in stand-ups and sprint plannings to share progress and to ensure deadlines were on track to be fulfilled on time.</li>
-                        <li>Developed the official website using HTML, CSS, Bootstrap, and JavaScript and utilized GitHub Pages to host the site, which overall resulted in new clients and 100% client return.</li>
-                        <li>View Website: <a target="_blank" rel="noreferrer" href='https://gameovaofficial.com/' id={ styles.gameovaWebLink }>https://gameovaofficial.com/</a></li>
-                      </ul>
+                      <p>As a Web Developer at Game Observational Video Analysis, I worked collaboratively with a UI/UX designer to establish rich interfaces and seamless user experiences using Figma. This partnership was vital in ensuring that we provided our clients with an intuitive and visually appealing platform that met their needs and exceeded their expectations.</p>
+
+                      <p>I participated in daily stand-ups and sprint plannings, which allowed me to share my progress and ensure that I was on track to meet the project deadlines. This experience taught me the value of effective communication, accountability, and teamwork in a professional setting.</p>
+
+                      <p>One of my key accomplishments was developing the official website using HTML, CSS, Bootstrap, and JavaScript. I leveraged GitHub Pages to host the site, resulting in new clients and a 100% client return rate. I took great pride in creating a website that provided a seamless user experience while conveying the company's vision and values.</p>
+
+                      <p>Through my experience at Game Observational Video Analysis, I learned the importance of staying up-to-date with industry trends and technologies, as well as the significance of attention to detail in web development. I also discovered how to effectively communicate with team members, clients, and stakeholders to ensure that projects were delivered on time and to the satisfaction of all parties involved.</p>
+
+                      <p>The most rewarding aspect of this role was seeing the positive impact that our work had on our clients. Knowing that our website played a key role in attracting new clients and retaining existing ones was extremely fulfilling. It was satisfying to know that my contributions played a part in the company's growth and success.</p>
+
+                      <p>Overall, my experience at Game Observational Video Analysis provided me with valuable learning opportunities, enhanced my technical skills, and helped me develop a greater appreciation for effective communication and collaboration in a professional setting.</p>
                     </Tab.Pane>
+
                     <Tab.Pane eventKey="fourth">
                       <h5>Student Programmer @ IET Data Center</h5>
                       <p className={ styles.date }>December 2019 - April 2021</p>
-                      <ul>
-                        <li>Migrated multiple existing monitoring systems to LogicMonitor and ensured that each added system was configured properly.</li>
-                        <li>Led meetings with primary administrators to ensure satisfaction with the monitoring, alerting, and escalation of their servers.</li>
-                        <li>In a timely manner, resolved monitoring enhancement requests within LogicMonitor with programming in Python or Groovy.</li>
-                      </ul>
+                      <p>As a Student Programmer with the Information & Educational Technology (IET) Data Center at UC Davis, I had the opportunity to take on several key responsibilities that allowed me to enhance my technical skills and contribute to the success of the team.</p>
+
+                      <p>One of my major achievements in this role was migrating multiple existing monitoring systems to LogicMonitor, a cloud-based monitoring platform. I worked closely with my team to ensure that each system was configured properly and that the migration process went smoothly. This was an important project for our team, as it helped us to better monitor and manage our servers, and provided us with a more streamlined and efficient way of identifying and resolving issues.</p>
+
+                      <p>In addition to this, I also had the opportunity to lead meetings with primary administrators to ensure that they were satisfied with the monitoring, alerting, and escalation of their servers. This was a great opportunity for me to develop my communication and leadership skills, and to gain a better understanding of how our systems were being used and managed across the organization.</p>
+
+                      <p>Finally, I also took on the responsibility of resolving monitoring enhancement requests within LogicMonitor, using my programming skills in Python or Groovy to quickly and effectively address any issues that arose. This was a challenging task, but it was also one of the most rewarding aspects of my role, as it allowed me to apply my technical skills to real-world problems and make a positive impact on our team's operations.</p>
+
+                      <p>Overall, my time as a Student Programmer with IET was a valuable learning experience that taught me a great deal about the importance of teamwork, communication, and problem-solving in a technical environment. I am grateful for the opportunity to have worked with such a talented and dedicated team, and I look forward to applying the skills and knowledge I gained in this role to future endeavors.</p>
                     </Tab.Pane>
                     <Tab.Pane eventKey="fifth">
                       <h5>React Web Developer Intern @ CliQ</h5>
                       <p className={ styles.date }>July 2020 - October 2020</p>
-                      <ul>
-                        <li>Streamlined the codebase by converting various existing vanilla components (HTML, CSS, JavaScript) into reusable React.js components, which overall increased speed and performance of app.</li>
-                        <li>Collaborated with designers to translate their UI/UX designs and wireframes into high-quality and production ready React.js code.</li>
-                      </ul>
+                      <p>During my time as a React Web Developer Intern at CliQ, I contributed to improving the codebase by converting existing vanilla components into reusable React.js components. This involved reviewing and refactoring the code to ensure better performance and faster load times for the app.</p>
+
+                      <p>I worked closely with the designers to ensure that their UI/UX designs were accurately translated into high-quality and production-ready React.js code. This required me to carefully review the design requirements and implement them using various React.js libraries and frameworks.</p>
+
+                      <p>Throughout this internship, I gained valuable experience in React.js and improved my collaboration and communication skills while working with designers and other developers. One of the most rewarding aspects of this role was utilizing React.js for web development. As a modern and widely used language, it was exciting to work with this powerful tool to build high-quality and performant user interfaces.</p>
                     </Tab.Pane>
                   </Tab.Content>
                 </div>

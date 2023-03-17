@@ -26,6 +26,7 @@ const roboticHandVariants = {
     visible: {
         y: 0,
         transition: {
+            delay: 1.5,
             duration: 2
         }
     }

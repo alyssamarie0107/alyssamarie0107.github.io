@@ -63,11 +63,11 @@ const Home = () => {
                         <h1>I'm Alyssa Rodriguez.</h1>
 
                         <motion.h2 variants={ childVariants }>
-                            Software Engineer <FontAwesomeIcon icon={ faLaptopCode } id={ styles.faLaptop }/>
+                            Software Developer <FontAwesomeIcon icon={ faLaptopCode } id={ styles.faLaptop }/>
                         </motion.h2>
                         
                         <motion.p variants={ childVariants }>
-                            based in San Francisco, CA who is focused and experienced in building frontend web applications that functions efficiently and provides exceptional digital experiences. I am passionate about all things technology and love tackling complex problems that make a positive impact on everyday lives.
+                            based in San Francisco, CA who is highly skilled and experienced in writing clean, scalable, and efficient code that outputs exceptional digital experiences for the end user. I am passionate about all things technology and love tackling complex problems that make a positive impact on everyday lives.
                         </motion.p>
 
                         <ContactBtns/>

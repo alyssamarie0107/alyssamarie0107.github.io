@@ -151,7 +151,7 @@ const Projects = () => {
                                 projectViewBtns={
                                     <div className={ styles.projectViewBtns }>
                                         <ViewBtn href="https://metacoders-ucd-lf.glitch.me/">View Website</ViewBtn>
-                                        <ViewBtn href="https://github.com/alyssamarie0107/ucd-lf-162">View Code</ViewBtn>
+                                        <ViewBtn href="https://github.com/alyssamarie0107/ucd-lost-foud">View Code</ViewBtn>
                                     </div>
                                 }>
                                 {/* tech stack */}
@@ -179,7 +179,7 @@ const Projects = () => {
                                 projectViewBtns={
                                     <div className={ styles.projectViewBtns }>
                                         <ViewBtn href="https://post-tranquil-creator.glitch.me/">View Website</ViewBtn>
-                                        <ViewBtn href="https://github.com/alyssamarie0107/post-gen-162-alyssa">View Code</ViewBtn>
+                                        <ViewBtn href="https://github.com/alyssamarie0107/postcard-generator">View Code</ViewBtn>
                                     </div>
                                 }>
                                 {/* tech stack */}
@@ -202,7 +202,7 @@ const Projects = () => {
                                 projectViewBtns={
                                     <div className={ styles.projectViewBtns }>
                                         <ViewBtn href="https://alyssamarie0107.github.io/museum-162-alyssa/">View Website</ViewBtn>
-                                        <ViewBtn href="https://github.com/alyssamarie0107/museum-162-alyssa">View Code</ViewBtn>
+                                        <ViewBtn href="https://github.com/alyssamarie0107/museum-exhibit-ucd">View Code</ViewBtn>
                                     </div>
                                 }>
                                 {/* tech stack */}
@@ -269,7 +269,7 @@ const Projects = () => {
                                 This project allowed you to gain a better understanding of the concept of threads and asynchronous programming by implementing a basic user-level thread library for Linux. With this library, you can create multiple threads within a process and have them run concurrently, which can help improve the performance of your programs."
                                 projectViewBtns={
                                     <div className={ styles.projectViewBtns }>
-                                        <ViewBtn href="https://github.com/alyssamarie0107/user-thread-lib150">View Code</ViewBtn>
+                                        <ViewBtn href="https://github.com/alyssamarie0107/user-thread-library">View Code</ViewBtn>
                                     </div>
                                 }>
                                 {/* tech stack */}

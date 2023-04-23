@@ -59,12 +59,12 @@ const Experience = () => {
                   <Tab.Content className={ styles.tabContent }>
                     <Tab.Pane eventKey="first">
                       <h5>Code Coach @ theCoderSchool</h5>
-                      <p className={ styles.date }>August 2022 - Present</p>
-                      <p>Presently, I am privileged to serve as a Code Coach at theCoderSchool San Francisco, West Portal branch. In this capacity, I offer personalized instruction to students in a one-on-one or two-on-one setting, either remotely or in-person, on the fundamental principles of object-oriented programming, problem-solving, algorithm design, debugging, and testing, utilizing a project-based learning methodology in languages such as Scratch, Python, or JavaScript.</p>
+                      <p className={ styles.date }>August 2022 - April 2023</p>
+                      <p>Previously, I had the privilege to serve as a Code Coach at theCoderSchool San Francisco, West Portal branch. In this capacity, I offered personalized instruction to students in a one-on-one or two-on-one setting, either remotely or in-person, on the fundamental principles of object-oriented programming, problem-solving, algorithm design, debugging, and testing, utilizing a project-based learning methodology in languages such as Scratch, Python, or JavaScript.</p>
                       
-                      <p>In preparation for each session, I prepare individualized lesson plans based on each student's unique learning style, interests, and skill level. Additionally, upon the conclusion of each session, I meticulously document each student's progress and send a comprehensive report to their respective guardian(s).</p>
+                      <p>In preparation for each session, I prepared individualized lesson plans based on each student's unique learning style, interests, and skill level. Additionally, upon the conclusion of each session, I meticulously documented each student's progress and sent a comprehensive report to their respective guardian(s).</p>
                       
-                      <p>Witnessing my students' knowledge and proficiency in coding expand and observing the joy they exude when overcoming a challenge independently is the most gratifying aspect of this role. I derive immense satisfaction from guiding and inspiring my students as they progress towards becoming accomplished coders.</p>
+                      <p>Witnessing my students' knowledge and proficiency in coding expand and observing the joy they exude when overcoming a challenge independently was the most gratifying aspect of this role. I derived immense satisfaction from guiding and inspiring my students as they progressed towards becoming accomplished coders.</p>
                     </Tab.Pane>
 
                     <Tab.Pane eventKey="second">

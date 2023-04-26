@@ -39,19 +39,22 @@ const Experience = () => {
                 <div className={ styles.pillsCol }>
                   <Nav variant="pills" className={ styles.pillsContainer }>
                     <Nav.Item>
-                      <Nav.Link eventKey="first">theCoderSchool</Nav.Link>
+                        <Nav.Link eventKey="first">USI Insurance Services</Nav.Link>
                     </Nav.Item>
                     <Nav.Item>
-                      <Nav.Link eventKey="second">UCSF</Nav.Link>
+                      <Nav.Link eventKey="second">theCoderSchool</Nav.Link>
                     </Nav.Item>
                     <Nav.Item>
-                      <Nav.Link eventKey="third">Game OVA</Nav.Link>
+                      <Nav.Link eventKey="third">UCSF</Nav.Link>
                     </Nav.Item>
                     <Nav.Item>
-                      <Nav.Link eventKey="fourth">IET Data Center</Nav.Link>
+                      <Nav.Link eventKey="fourth">Game OVA</Nav.Link>
                     </Nav.Item>
                     <Nav.Item>
-                      <Nav.Link eventKey="fifth">CliQ</Nav.Link>
+                      <Nav.Link eventKey="fifth">IET Data Center</Nav.Link>
+                    </Nav.Item>
+                    <Nav.Item>
+                      <Nav.Link eventKey="sixth">CliQ</Nav.Link>
                     </Nav.Item>
                   </Nav>
                 </div>

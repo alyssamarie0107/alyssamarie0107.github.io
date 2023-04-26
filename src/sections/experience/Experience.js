@@ -58,6 +58,12 @@ const Experience = () => {
                 <div className={ styles.contentCol }>
                   <Tab.Content className={ styles.tabContent }>
                     <Tab.Pane eventKey="first">
+                      <h5>Jr. Software Developer @ USI Insurance Services</h5>
+                      <p className={ styles.date }>August 2023 - Present</p>
+                      <p>As a Junior Software Developer at USI Insurance Services, I collaborate with both business and IT partners to conceptualize, design, and implement Robotic Process Automation (RPA) solutions that streamline repetitive and standardized tasks. These solutions empower our partners to concentrate on more complex and fulfilling tasks, enhancing their overall productivity and performance.</p>
+                    </Tab.Pane>
+
+                    <Tab.Pane eventKey="second">
                       <h5>Code Coach @ theCoderSchool</h5>
                       <p className={ styles.date }>August 2022 - April 2023</p>
                       <p>Previously, I had the privilege to serve as a Code Coach at theCoderSchool San Francisco, West Portal branch. In this capacity, I offered personalized instruction to students in a one-on-one or two-on-one setting, either remotely or in-person, on the fundamental principles of object-oriented programming, problem-solving, algorithm design, debugging, and testing, utilizing a project-based learning methodology in languages such as Scratch, Python, or JavaScript.</p>
@@ -67,7 +73,7 @@ const Experience = () => {
                       <p>Witnessing my students' knowledge and proficiency in coding expand and observing the joy they exude when overcoming a challenge independently was the most gratifying aspect of this role. I derived immense satisfaction from guiding and inspiring my students as they progressed towards becoming accomplished coders.</p>
                     </Tab.Pane>
 
-                    <Tab.Pane eventKey="second">
+                    <Tab.Pane eventKey="third">
                       <h5>Frontend Web Developer Intern @ UCSF</h5>
                       <p className={ styles.date }>January 2022 - January 2023</p>
                       <p>As a Frontend Web Developer Intern with UCSF, I had the opportunity to collaborate with various key stakeholders within the DOM to understand user needs and determine satisfying shipping solutions. Through this communication, I gained valuable insights into the importance of user-centered design and the impact of effective communication in project management.</p>
@@ -85,7 +91,7 @@ const Experience = () => {
                       Overall, my internship with UCSF provided me with valuable experiences and learning opportunities, including the importance of effective communication, user-centered design, and the power of modern web technologies in enhancing user experience. I am proud of the accomplishments I made and grateful for the skills and knowledge I gained.</p>
                     </Tab.Pane>
 
-                    <Tab.Pane eventKey="third">
+                    <Tab.Pane eventKey="fourth">
                       <h5>Web Developer @ GameOVA</h5>
                       <p className={ styles.date }>April 2021 - September 2021</p>
                       <p>As a Web Developer at Game Observational Video Analysis, I worked collaboratively with a UI/UX designer to establish rich interfaces and seamless user experiences using Figma. This partnership was vital in ensuring that we provided our clients with an intuitive and visually appealing platform that met their needs and exceeded their expectations.</p>
@@ -101,7 +107,7 @@ const Experience = () => {
                       <p>Overall, my experience at Game Observational Video Analysis provided me with valuable learning opportunities, enhanced my technical skills, and helped me develop a greater appreciation for effective communication and collaboration in a professional setting.</p>
                     </Tab.Pane>
 
-                    <Tab.Pane eventKey="fourth">
+                    <Tab.Pane eventKey="fifth">
                       <h5>Student Programmer @ IET Data Center</h5>
                       <p className={ styles.date }>December 2019 - April 2021</p>
                       <p>As a Student Programmer with the Information & Educational Technology (IET) Data Center at UC Davis, I had the opportunity to take on several key responsibilities that allowed me to enhance my technical skills and contribute to the success of the team.</p>
@@ -114,7 +120,8 @@ const Experience = () => {
 
                       <p>Overall, my time as a Student Programmer with IET was a valuable learning experience that taught me a great deal about the importance of teamwork, communication, and problem-solving in a technical environment. I am grateful for the opportunity to have worked with such a talented and dedicated team, and I look forward to applying the skills and knowledge I gained in this role to future endeavors.</p>
                     </Tab.Pane>
-                    <Tab.Pane eventKey="fifth">
+
+                    <Tab.Pane eventKey="sixth">
                       <h5>React Web Developer Intern @ CliQ</h5>
                       <p className={ styles.date }>July 2020 - October 2020</p>
                       <p>During my time as a React Web Developer Intern at CliQ, I contributed to improving the codebase by converting existing vanilla components into reusable React.js components. This involved reviewing and refactoring the code to ensure better performance and faster load times for the app.</p>

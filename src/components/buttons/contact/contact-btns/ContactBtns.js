@@ -20,7 +20,7 @@ const ContactBtns = () => {
         <motion.div 
             className={ styles.ContactBtns }
             variants={ contactVariants }>
-            <ContactBtn id={ styles.resumeBtn } href="https://drive.google.com/file/d/1bvXzE-zXnI_qo-Dr-p2bW6ANOpzKea1r/view?usp=sharing" target="_blank">Resume</ContactBtn>
+            <ContactBtn id={ styles.resumeBtn } href="https://drive.google.com/file/d/1JCATJlpMLiKhHq_0e-Q_Brv7mOaj-hhV/view?usp=sharing" target="_blank">Resume</ContactBtn>
                         
             <ContactBtn id={ styles.emailBtn } href="mailto:amrrodriguez@ucdavis.edu">Get in touch</ContactBtn>
         </motion.div>

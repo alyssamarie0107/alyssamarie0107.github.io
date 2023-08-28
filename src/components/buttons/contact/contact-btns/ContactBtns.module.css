@@ -1,9 +1,0 @@
-.ContactBtns {
-    display: flex;
-    padding-top: 8px
-}
-
-/* for large, medium, small devices */
-@media only screen and (max-width: 425px) {
- .ContactBtns {justify-content: center;}   
-}

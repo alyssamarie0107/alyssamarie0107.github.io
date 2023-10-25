@@ -65,16 +65,16 @@ const Experience = () => {
                   <Tab.Content className={ styles.tabContent }>
                     <Tab.Pane eventKey="first">
                       <h5>Jr. Software Developer @ USI Insurance Services</h5>
-                      <p className={ styles.date }>August 2023 - Present</p>
+                      <p className={ styles.date }>April 2023 - Present</p>
                       <p>As a full time Junior Software Developer at USI Insurance Services, I collaborate with both business and IT partners to conceptualize, design, and implement Robotic Process Automation (RPA) solutions that streamline repetitive and standardized tasks. These solutions empower our partners to concentrate on more complex and fulfilling tasks, enhancing their overall productivity and performance.</p>
                     </Tab.Pane>
 
                     <Tab.Pane eventKey="second">
                       <h5>Software Engineer @ Options MD</h5>
-                      <p className={ styles.date }>May 2023 - Present</p>
-                      <p>As a part time Software Engineer at Options MD, I am part of a groundbreaking mental health startup with a mission to improve the standard of care for patients facing severe and treatment-resistant depression. My main responsibilities revolve around designing in Figma frontend components as well as developing them into production in React.js, Typescript, and CSS.</p>
+                      <p className={ styles.date }>May 2023 - August 2023</p>
+                      <p>As a part time Software Engineer at Options MD, I was part of a groundbreaking mental health startup with a mission to improve the standard of care for patients facing severe and treatment-resistant depression. My main responsibilities revolved around designing in Figma frontend components as well as developing them into production in React.js, Typescript, and CSS.</p>
                       
-                      <p>Working remotely, I take the initiative to communicate proactively, surfacing any blockers, seeking clarifications, and ensuring the projects move forward smoothly. Following a ticket per branch driven flow, I raise pull requests for code review, collaborating closely with the team to maintain code quality.</p>
+                      <p>Working remotely, I took the initiative to communicate proactively, surfacing any blockers, seeking clarifications, and ensuring the projects move forward smoothly. Following a ticket per branch driven flow, I raised pull requests for code review, collaborating closely with the team to maintain code quality.</p>
                     </Tab.Pane>
 
                     <Tab.Pane eventKey="third">

@@ -90,7 +90,7 @@ const Experience = () => {
                     <Tab.Pane eventKey="fourth">
                       <h5>Frontend Web Developer Intern @ UCSF</h5>
                       <p className={ styles.date }>January 2022 - January 2023</p>
-                      <p>As a Frontend Web Developer Intern with UCSF, I had the opportunity to collaborate with various key stakeholders within the DOM to understand user needs and determine satisfying shipping solutions. Through this communication, I gained valuable insights into the importance of user-centered design and the impact of effective communication in project management.</p>
+                      <p>As a Frontend Web Developer Intern with UCSF, I had the opportunity to collaborate with various key stakeholders within the Department of Medicine (DOM) to understand user needs and determine satisfying shipping solutions. Through this communication, I gained valuable insights into the importance of user-centered design and the impact of effective communication in project management.</p>
 
                       <p>One of my notable contributions during this internship was building a collapsible side navigation bar with nested submenus, as well as other frontend components and features for the DOM’s Business Operations page using HTML, CSS, Bootstrap, and JavaScript. This helped to improve website navigation and enhance the user experience.</p>
 
@@ -98,11 +98,9 @@ const Experience = () => {
 
                       <p>To further enhance user experience, I added AJAX to the Faculty Availability page to avoid page reload when availability was changed. Additionally, I developed a widget for the Division of Hospital Medicine’s Balance Sheets that automatically calculated the number of weeks of unemployment based on two dates, auto-filling the corresponding input field. This greatly improved the user's efficiency and streamlined the process.</p>
 
-                      <p>
-                      Redesigning and building the Manager Notification pages for the Performance Evaluation Portal was particularly rewarding. I leveraged modern web technologies, incorporated user feedback, and streamlined the process to create a more efficient and user-friendly workflow. This experience taught me the importance of attention to detail, empathy for users, and the value of user feedback in project development.</p>
+                      <p>Redesigning and building the Manager Notification pages for the Performance Evaluation Portal was particularly rewarding. I leveraged modern web technologies, incorporated user feedback, and streamlined the process to create a more efficient and user-friendly workflow. This experience taught me the importance of attention to detail, empathy for users, and the value of user feedback in project development.</p>
 
-                      <p>
-                      Overall, my internship with UCSF provided me with valuable experiences and learning opportunities, including the importance of effective communication, user-centered design, and the power of modern web technologies in enhancing user experience. I am proud of the accomplishments I made and grateful for the skills and knowledge I gained.</p>
+                      <p>Overall, my internship with UCSF provided me with valuable experiences and learning opportunities, including the importance of effective communication, user-centered design, and the power of modern web technologies in enhancing user experience. I am proud of the accomplishments I made and grateful for the skills and knowledge I gained.</p>
                     </Tab.Pane>
 
                     <Tab.Pane eventKey="fifth">

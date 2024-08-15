@@ -30,6 +30,12 @@ const Testimony = () => {
                     whileInView="visible"
                     viewport={{ once: true }}>
                         <TestimonyCard 
+                            testimony="I was fortunate enough to work alongside Alyssa during my tenure at an insurance brokerage where we worked together on protects involving RPA, IDP, AI and ML. As a project manager on most of the projects being handed to our developers, I often had an in depth understanding of some of the subtle (and sometimes confusing) business rules required by the business. Alyssa was always able to understand these business rules and complexities and took projects in stride. She constantly developed her understanding of the tools we utilized and strived to be a better developer and coworker. I greatly enjoyed working with her and I would highly recommend working with her if given the opportunity. " 
+                            by="Gavin Hasty" 
+                            title="Project Manager @ USI Insurance Services"
+                        />
+                        
+                        <TestimonyCard 
                             testimony="Alyssa was my co-intern at UCSF as a Front-End Web Developer Intern. She was an amazing team member, being able to come up with new ideas, communicate them to the rest of the team, take their feedback, and implement the final product. An example of this was the great work she did redesigning the website's navigation, impressing our clients and team with the improvements in usability it brought. Quick to offer help and work through plans, Alyssa always made sure we were on the same page on where to take the website next. She would be an invaluable asset to any dev team!" 
                             by="Alicia Ramirez" 
                             title="Frontend Web Developer Intern @ UCSF"

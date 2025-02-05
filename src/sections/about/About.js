@@ -69,7 +69,7 @@ const About = () => {
                     whileInView="visible"
                     viewport={{ once: true }}>
                         <div id = { styles.about }>
-                            <p>Hello! My name is Alyssa Rodriguez. I am a Software Developer based in San Francisco, CA. I graduated from the University of California, Davis in 2021 with a Bachelor of Science degree in Computer Science. Currently, I am a full time Jr. Software Developer at USI Insurance Services, where I have the opportunity to build Robotic Process Automation (RPA) solutions.</p>
+                            <p>Hello! My name is Alyssa Rodriguez. I am a Software Developer based in San Francisco, CA. I graduated from the University of California, Davis in 2021 with a Bachelor of Science degree in Computer Science. Currently, I am a full time Software Developer at USI Insurance Services, where I have the opportunity to build Robotic Process Automation (RPA) solutions as well as utilize the latest AI and ML tools within UiPath.</p>
 
                             <p>My work philosophy is rooted in the belief that software engineering is an ongoing education, and I constantly endeavor to enhance my skills. I am a proactive learner who stays up-to-date with the latest industry developments and techniques by watching video tutorials, taking online courses, and engaging in personal projects using the latest technologies.</p>
                         </div>

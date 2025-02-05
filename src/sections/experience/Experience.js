@@ -66,7 +66,7 @@ const Experience = () => {
                     <Tab.Pane eventKey="first">
                       <h5>Jr. Software Developer @ USI Insurance Services</h5>
                       <p className={ styles.date }>April 2023 - Present</p>
-                      <p>As a full time Junior Software Developer at USI Insurance Services, I collaborate with both business and IT partners to conceptualize, design, and implement Robotic Process Automation (RPA) solutions that streamline repetitive and standardized tasks. These solutions empower our partners to concentrate on more complex and fulfilling tasks, enhancing their overall productivity and performance.</p>
+                      <p>As a full time Software Developer at USI Insurance Services, I collaborate with both business and IT partners to conceptualize, design, and implement Robotic Process Automation (RPA) solutions that streamline repetitive and standardized tasks. These solutions empower our partners to concentrate on more complex and fulfilling tasks, enhancing their overall productivity and performance.</p>
                     </Tab.Pane>
 
                     <Tab.Pane eventKey="second">
